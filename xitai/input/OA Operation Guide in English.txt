@@ -1,0 +1,79 @@
+
+
+Oa Operation Guide in English
+
+System login
+Process creation
+Process name
+Process name
+Process name
+Process name
+1.Travel application form
+1. First of all, you have to fill in the reason for the business trip.
+2. Second, you need to estimate the cost of the trip.
+3. Third, you need to choose the transportation for your business trip.
+4. Please pay attention to the department budget when submitting the travel application. If there is no budget, you need to go through the budget adjustment approval form
+2.Leave application 
+form
+1. First of all ,you need to choose the type of leave.
+2. Secondly, you choose the start and end time of the leave.
+3. Finally, fill in the reasons for leave and select the working agent (if there is no one you can choose yourself)
+3. Approval document for cancellation of leave
+First of all, you need to have the process of leave that needs to be cancelled and has been completed.
+Only one leave application can be selected at a time.
+4. Payment slip
+First of all, you just need to fill in the red * asterisks.
+Some data cannot be converted to English For example, you select 9000 for the company and USD for the currency
+5. Travel claim form
+First of all, you just need to fill in the red * asterisks.
+Travel application is required before travel reimbursement
+Some data cannot be converted to English For example, you select 9000 for the company and USD for the currency
+6. Expense reimbursement form
+First of all, you just need to fill in the red * asterisks.
+Some data cannot be converted to English For example, you select 9000 for the company and USD for the currency
+7. Employee loan application form
+First of all, you just need to fill in the red * asterisks.
+Some data cannot be converted to English For example, you select 9000 for the company and USD for the currency
+Employee supplier 
+select the employee name
+8. Repayment order
+First of all, you just need to fill in the red * asterisks.
+Some data cannot be converted to English For example, you select 9000 for the company and USD for the currency
+If you need to repay, please go through the repayment process.
+9. Expense General Application Form
+First of all, you just need to fill in the red * asterisks.
+Clear table can be added, deleted, copied
+10. Expense General Application Form
+First of all, you just need to fill in the red * asterisks.
+You need to select the expense type and check the exchange rate between RMB and the selected currency.
+11. Expense General Application Form
+First of all, you just need to fill in the red * asterisks.
+This is the process you need to go through if there is a change in your itinerary or a delay in your plane and train.
+12. Expense General Application Form
+First of all, you just need to fill in the red * asterisks.
+If you need to pay a supplier but cannot select the supplier, you need to initiate the supplier creation process（Business Type-new）
+If the supplier information is changed, please go through the supplier modification process（ Business Type-modification ）
+13. Customer Master Data Create/Modify Requisition
+First of all, you just need to fill in the red * asterisks.
+Follow this process when adding a new customer
+14. Sales contract approval document
+First of all, you just need to fill in the red * asterisks.
+This process can be followed when signing a sales contract
+15. Sales Order Request Form
+First of all, you just need to fill in the red * asterisks.
+This process can be followed when signing a sales contract
+16. Business entertainment approval document
+First of all, you just need to fill in the red * asterisks.
+If you need to entertain a visitor, please apply for hospitality.
+This hospitality needs to be associated for later expense reimbursement
+16. Business entertainment approval document
+First of all, you just need to fill in the red * asterisks.
+If you need to use the company seal, corporate seal, etc., please use the seal.
+
+
+
+
+
+
+
+Thanks！

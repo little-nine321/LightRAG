@@ -1,0 +1,1058 @@
+北京珂阳科技有限公司
+
+卓越，创新，赋能
+
+iPMS v1.0	July, 2023	English中文
+iPMS 用户手册
+北京珂阳科技有限公司	总部：北京市经济技术开发区西环南路26号院30号楼605室	苏州：苏州市工业园区中新生态大厦715 	无锡：无锡市滨湖区恒华科技园21栋301
+
+Copyright
+
+© 2022 Cowin Technology Co., Ltd. All rights reserved.
+No part of this publication may be reproduced or transmitted in any form or for any purpose without the express permission of Cowin Technology Co., Ltd. The information contained herein may be changed without prior notice. These materials are provided by Cowin Technology Co., Ltd for informational purposes only, without representation or warranty of any kind, and Cowin Technology Co., Ltd shall not be liable for errors or omissions with respect to the materials. The only warranties for Cowin Technology Co., Ltd products and services are those that are set forth in the express warranty statements accompanying such products and services, if any. Nothing herein should be construed as constituting an additional warranty.
+Cowin and other Cowin products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of Cowin Technology Co., Ltd in China.
+
+未经 北京珂阳科技有限公司的明确许可，任何人不得以任何形式或为任何目的复制或传播本文件的任何内容。本文件包含的信息可能会更改，且不再另行事先通知。
+本资料由北京珂阳科技有限公司提供，仅供参考，不构成任何形式的陈述或保证，其中如若存在任何错误或疏漏，北京珂阳科技有限公司概不负责。与北京珂阳科技有限的产品和服务相关的保证仅限于该等产品和服务随附的保证声明（若有）中明确提出的保证。本文件中的任何信息均不构成额外保证。
+本文中提到的珂阳和珂阳产品及服务，以及其各自的标识均为北京珂阳科技有限公司在中国的商标或注册商标。
+
+Icons
+Icon	Description
+Caution
+Example
+Note
+Recommendation
+External Process
+
+Typographic Conventions
+Type Style	Description
+Example text	Words or characters that appear on the screen. These include field names, screen titles, pushbuttons as well as menu names, paths and options.	Cross-references to other documentation.
+Example text	Emphasized words or phrases in body text, titles of graphics and tables.
+EXAMPLE TEXT	Names of elements in the system. These include report names, program names, transaction codes, table names, and individual key words of a programming language, when surrounded by body text, for example, SELECT and INCLUDE.
+Example text	Screen output. This includes file and directory names and their paths, messages, source code, names of variables and parameters as well as names of installation, upgrade and database tools.
+EXAMPLE TEXT	Keys on the keyboard, for example, function keys (such as F2) or the ENTER key.
+Example text	Exact user entry. These are words or characters that you enter in the system exactly as they appear in the documentation.
+<Example text>	Variable user entry. Pointed brackets indicate that you replace these words and characters with appropriate entries.
+
+Contents
+1.1.	Icons	3
+1.2.	Typographic Conventions	3
+1.	Introduction	7
+1.1	Overview	7
+1.2	Features	7
+1.3	Working with iPMS User Manual	7
+2、	Getting Started	7
+2.1	User Interface	7
+2.1.1	Screen Layout	7
+2.1.2	Navigation Principles	7
+2.1.3	Hot Keys	7
+2.2	Help and Support Channel	7
+2.3	iPMS Search	7
+2.4	System Requirements	7
+2.5	Tasks	8
+2.6	Home Work Center	8
+3、	Definitions	8
+4、	Business Area	8
+5、	Key User Administration (System Administrator)	8
+5.1	Overview	8
+5.2	Features	8
+5.3	Roles	8
+5.4	User Management	8
+6、	Basic Functionalities	8
+6.1	Configuration	8
+6.2	Work Order	9
+6.3	PM	9
+6.4	Inform Note	9
+6.5	Report	9
+6.6	Part	9
+6.7	Pad Function List	9
+7、	Business Scenarios	9
+8、	Semi-Standard Compliance	9
+9、	Important Disclaimers and Legal Information	9
+
+Document History 文档修改历史记录
+Version	版本编号	变化状态	简要说明	日期	变更人	批准日期	批准人
+V0.1	C	创建	2023.12.11	童海潮
+
+*变化状态：C――创建，A——增加，M——修改，D——删除
+
+Introduction
+Overview
+Introduction about iPMS V1.0.
+Features
+Functionalities included in iPMS V1.0.
+Working with iPMS User Manual
+Structure of this user manual.
+Getting Started
+User Interface
+Screen Layout
+Screen shot, explain the structure, layout
+Menu bar
+Tool bar
+Navigation panel
+Help or information panel
+User information area
+System information bar
+
+Navigation Principles
+Navigation panel and how it is organized
+Other access path, for example, command search
+......
+Hot Keys
+You can use the following hot keys to navigate within the user interface:
+Tasks	Hot Keys
+Move between the cells across the columns	LEFT ARROW and RIGHT ARROW
+Move between the cells across the rows	UP ARROW and DOWN ARROW
+To select a row	ENTER / SPACEBAR
+Scroll the table	UP ARROW and DOWN ARROW
+
+Examples: Log on to iPMS system
+1. In the User field of the logon screen, enter your user ID. Press TAB to go to the next field.
+2. In the Password field, enter your password. Press TAB.
+3. In the Language field, select a language with DOWN ARROW or UP ARROW.
+4. To log on to the system, press ENTER.
+
+Help and Support Channel
+There are two ways that you can get help.
+One is to utilize this user manual, find the topic that you want to ask in this document.
+And you can also use the online help via the Help icon on the title bar.......
+iPMS Search
+Command Search
+Item Search
+System Requirements
+Requirement Details
+Minimum Hardware Requirements:
+Minimum desktop and laptop hardware requirements for iPMS V1.0:
+Processor: Intel Core 2 Duo (2.4 GHz with a 1066 megahertz {MHz} front-side bus) or better
+Memory: 6 gigabytes (GB), or more
+
+Minimum Network Requirements :
+Minimum bandwidth and latency requirements for iPMS V1.0
+Number of Users	20	100	500	1000
+Bandwidth Required (Mbps)
+
+Display Resolution:
+iPMS V1.0 is best displayed at a screen resolution of 1920 x 1080.
+Supported Operating Systems/Browsers
+Supported operating systems and browsers for HTML5 Client
+
+Additional Software:
+
+Printer Requirements:
+
+Required Browser Settings:
+
+......
+Tasks
+Home Work Center
+
+Definitions
+WIP: Work In Process
+FOUP: Front Open Unit of Process
+PO: Production Order
+WO: Work Order
+WT: Work Template
+CT: Checklist Template
+PM: Preventive Maintenance
+BM: Breakdown Maintenance
+TBM: Time-Based Maintenance
+CBM: Confition-Based Maintenance
+SDWT: Self Directed Work Team
+SVID: Status Variable ID
+DVID: Data Variable ID
+CEID: Collection Event ID
+
+Business Area
+iPMS helps you to unified the manufacturing process across the following business areas:
+Plant maintenance management
+Time based equipment maintenance
+Condition/parameter based equipment maintenance
+Consumption based equipment maintenance
+Preventive maintenance
+Tool management
+Reporting and Analysis
+Warehouse management
+Material management
+Durable Management
+Finish product managemnet
+WIP management
+Reporting and Analysis
+Financial and accounting management
+Production cost collection
+Reporting and Analysis
+Key User Administration (System Administrator)
+Overview
+Features
+A key user is usually responsible for:
+Application and user management
+System Configuration
+Organization management in the system
+Help end user with the system issues at the first time
+Reporting message to Cowin
+Coordinating the issue resolving
+Roles
+The following roles should be created and related authorization should be assigned to each role:
+Administrator
+Production manager
+Production controller
+Shopfloor manager
+Shopfloor controller
+IE engineer
+IE manager
+Process engineer
+Quality staff
+Quality manager
+Maintenance engineer
+Maintenance manager
+Warehouse manager
+Warehouse staff
+Controller
+User Management
+Create User
+用途：
+创建User
+操作步骤：
+
+打开Users菜单，可通过以下两种方式进入菜单：
+Modeler菜单路径	Modeler→Admin→Access Control→Users
+快速访问	Users
+
+点击Create按钮，在右侧表单中显示Users新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮，User创建成功
+选中一条User数据，点击数据行后的Edit按钮，可在右侧表单中进行Users信息编辑
+选中一条User数据，点击数据行后的More-Delete按钮或者Batch Operation-Delete按钮，可删除数据
+属性说明：
+属性	说明
+User Account	用户登录账号
+User Name	用户名
+Work No	工号
+Post	职位，数据来源Position UI
+Role Assignment	选择角色，数据来源Roles UI
+Department 	Allocation	部门，数据来源SDWT UI
+Expiration Policies	过期的政策，数据来源Time Strategy UI
+Birthday	生日
+Gender	性别
+Email	邮件地址
+Phone Number	手机号码
+Tel	固定电话
+
+结果：
+创建/修改/删除User成功
+Assign Roles to User
+用途：
+给User分配Role
+操作步骤：
+有两种方式，可对User分配Roles，一是在Users页面进行操作，一是在Roles页面进行操作。
+
+打开Users页面，在新增或者编辑User时，在Role Assignment下拉框中，选择Role，可多选
+信息填写完整后，点击Save按钮，则给User分配Roles操作成功
+
+打开Roles菜单，可通过以下两种方式进入菜单：
+Modeler菜单路径	Modeler→Admin→Access Control→Roles
+快速访问	Roles
+
+选中一条Role数据，点击操作列的User按钮，在弹出的页面上，点击Existing Users，在User弹出框中，进行选择
+点击OK按钮，给User分配Role成功
+属性说明：
+属性	说明
+Role Code	角色代码
+Role Name	角色名称
+
+结果：
+User分配Role成功
+Add User to User Group
+用途：
+给User分配User Group
+操作步骤：
+
+打开User Group菜单，可通过以下两种方式进入菜单：
+Modeler菜单路径	Modeler→Admin→Access Control→User Group
+快速访问	User Group
+
+点击Create按钮，弹出User Group新增表单
+输入User Group Name，勾选穿梭框左侧的User，点击中间的右移按钮
+点击OK，User Group新增成功，并绑定了User
+选中一条User Group，点击操作列的Edit按钮，在弹出框中，可进行绑定User的修改
+属性说明：
+属性	说明
+User Group Name	用户组名称
+Role	角色
+User Account	用户账号
+User Name	用户名
+Description	说明
+
+结果：
+给User分配User Group成功
+Reset User Password
+用途：
+重置用户密码
+操作步骤：
+
+选中一条User数据，点击操作列的More-Password按钮
+在Password弹出页面，进行密码重置
+点击OK按钮，用户密码重置成功
+结果：
+User重置密码成功
+Deactivate User
+用途：
+禁用用户
+操作步骤：
+
+选中一条User数据，点击操作列的More-Freeze按钮，或者点击表格上的Batch Operation-Freeze
+User禁用成功
+结果：
+User禁用成功
+Basic Functionalities
+Configuration
+Checklist Template
+Create Checklist Template
+用途:
+创建Checklist Template
+操作步骤:
+
+打开Checklist Template菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→PMS→Checklist Template
+快速访问	Checklist Template
+
+点击Create按钮，在右侧表单中显示Checklist Template 新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Upload 可以选择SOP文档或相关照片进行上传
+点击Save按钮，Checklist Template创建成功
+选中一条Checklist Template数据，点击右侧标题栏中modify按钮，可在右侧表单中进行Checklist Template信息编辑
+选中一条Checklist Template数据，点击右侧标题栏中Remove按钮，删除选中的Checklist Template以及其关联的 Check Item
+属性说明：
+属性	说明
+Template ID	Checklist Template 编号
+Template Version	Checklist Template 版本号
+Area Name	FAB 区域
+EQP Model	EQP Model
+Template Name	Checklist Template 名
+Template Type	Checklist Template 类型(PM/BM/Verification)
+STD Time	标准时间(不计算多人作业重合时间)
+STD Job Time	标准作业时间(多人作业时间总和, 计算重合时间)
+Description	描述信息
+Attachment	附件(SOP, Pic等)
+
+结果：
+创建/修改/删除 Checklist Template 成功
+Create Checklist Item
+用途:
+为 Checklist Template 添加Check Item点检项目
+操作步骤:
+
+选中一条Checklist Template数据, 点击Item List 标题栏中的Create按钮，在右侧表单中显示Check Item新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Upload 可以选择SOP文档或相关照片进行上传
+点击Save按钮，为选中的Checklist Template添加Check Item成功
+选中一条Check Item数据，点击右侧标题栏中modify按钮，可在右侧表单中进行Check Item信息编辑
+选中一条Check Item数据，点击右侧标题栏中Remove按钮，删除选中的Check Item
+结果：
+创建/修改/删除 Check Item 成功
+Work Template
+Create Work Template
+用途：
+创建Work Template
+操作步骤：
+
+打开Work Template菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→PMS→Work Template
+快速访问	Work Template
+
+点击Create按钮，在右侧表单中显示Checklist Template 新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮， Work Template创建成功
+选中一条Work Template数据，点击右侧标题栏中modify按钮，可在右侧表单中进行Work Template信息编辑
+选中一条Work Template数据，点击右侧标题栏中Remove按钮，删除选中的Work Template
+属性说明：
+属性	说明
+Work Template ID	Work Template 编号
+Work Template Version	Work Template 版本号
+Work Template Name	Work Template名
+Work Template Type	Work Template类型(PM/BM)
+PM Code	PM Down Code(ReasonCode)
+EQP Model	EQP Model
+Machine Name	机台名
+Activity	是否激活
+Description	描述信息
+
+结果：
+创建/修改/删除 Work Template 成功
+Assign Checklist Template To Work Template
+用途:
+为Work Template分配Checklist Template
+操作步骤:
+
+选中一条Work Template数据，选择Checklist Template活页, Checklist Template表中展示已分配给选中Work Template的Checklist Template
+点击Checklist Template标题中Create按钮, 弹出Add Checklist Template 窗体
+勾选需要添加的Checklist Template并点击OK，选中的Checklist Template被分配到选中的Work Template下
+属性说明：
+无
+结果:
+为Work Template分配Checklist Template成功
+Assign Parts To Work Template
+用途：
+为Work Template分配需要操作的Parts
+操作步骤：
+
+选中一条Work Template数据，选择Parts活页, Parts表中展示已分配给选中Work Template的Parts
+点击Parts标题中Create按钮, 弹出Add Parts 窗体
+勾选需要添加的Part并选择需要对Part进行的操作，点击OK，选中的Part被分配到选中的Work Template下
+属性说明：
+无
+结果:
+为Work Template分配Parts成功
+Warehouse
+Create Warehouse
+用途：
+创建Warehouse
+操作步骤：
+
+打开Warehouse菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Parts→Warehouse
+快速访问	Warehouse
+
+点击Create按钮，在右侧表单中显示Warehouse 新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮， Warehouse创建成功
+选中一条Warehouse数据，点击右侧标题栏中Modify按钮，可在右侧表单中进行Warehouse信息编辑
+选中一条Warehouse数据，点击右侧标题栏中Remove按钮，删除选中的Warehouse
+属性说明：
+属性	说明
+Warehouse Name	仓库名
+Warehouse Type	仓库类型
+Description	描述信息
+
+结果：
+创建/修改/删除Warehouse成功
+SDWT Cost Center
+用途：
+关联SDWT和Cost Center用于做账
+操作步骤：
+
+打开SDWT Cost Center菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Parts→SDWT Cost Center
+快速访问	SDWT Cost Center
+
+点击Create按钮，在右侧表单中显示SDWT-Cost Center新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮，SDWT-Cost Center关联创建成功
+选中一条SDWT-Cost Center数据，点击右侧标题栏中Modify按钮，可在右侧表单中进行SDWT-Cost Center信息编辑
+选中一条SDWT-Cost Center数据，点击右侧标题栏中Remove按钮，删除选中的SDWT-Cost Center
+属性说明：
+属性	说明
+Area	区域
+SDWT	SDWT
+Cost Center	成本中心
+
+结果：
+创建/修改/删除SDWT-Cost Center成功
+Reason Code
+用途：
+创建Reason Code
+操作步骤：
+
+打开Reason Code菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Parts→Reason Code
+快速访问	Reason Code
+
+点击Create按钮，在右侧表单中显示Reason Code新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮，Reason Code创建成功
+选中一条Reason Code数据，点击右侧标题栏中Modify按钮，可在右侧表单中进行Reason Code信息编辑
+选中一条Reason Code数据，点击右侧标题栏中Remove按钮，删除选中的Reason Code
+属性说明：
+属性	说明
+Reason Code Type	Reason Code类型
+Reason Code	原因代码
+Description	描述信息
+
+结果：
+创建/修改/删除Reason Code成功
+Create Part Master
+用途：
+创建Part Master
+操作步骤：
+
+打开Create Part Master菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Parts→Create Part Master
+快速访问	Create Part Master
+
+点击Create按钮，在右侧表单中显示Part Master新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮，Part Master创建成功
+选中一条Part Master数据，点击右侧标题栏中Modify按钮，可在右侧表单中进行Part Master信息编辑
+选中一条Part Master数据，点击右侧标题栏中Remove按钮，删除选中的Part Master
+属性说明：
+属性	说明
+Master ID	零部件Master编号
+Part Name	零部件名
+Part Type	Part 类型: 消耗品/非消耗品/备品
+Traceable:	是否可追踪: Y/N
+Whitelist Flag	是否白名单: Y/N
+Reading Type	数据单位
+Reading Spec	数据标准规格: 根据Reading Spec和Reading Type确认Lifetime
+Cycle Limit	最大使用次数
+Valid Term	有有效期
+Waring QTY	库存安全水位
+Part Limit QTY	Auto 接收 Part 的最大数量
+Description	描述信息
+
+结果：
+创建/修改/删除Part Master成功
+Part Group
+Create Part Group
+用途：
+创建Part Group
+操作步骤:
+
+打开Part Group菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Parts→Part Group
+快速访问	Part Group
+
+点击Create按钮，在右侧表单中显示Part Group新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮，Part Group创建成功
+选中一条Part Group数据，点击右侧标题栏中Modify按钮，可在右侧表单中进行Part Group信息编辑
+选中一条Part Group数据，点击右侧标题栏中Remove按钮，删除选中的Part Group
+属性说明：
+属性	说明
+Master ID	零部件Master编号
+Part Name	零部件名
+Part Type	Part 类型: 消耗品/非消耗品/备品
+
+结果:
+创建/修改/删除Part Group成功
+Assign Part To Part Group
+用途：
+将Part添加到Part Group
+操作步骤:
+
+打开Part Group菜单，选择1个Port Group，点击Port Group List表左下角的 Part List Tab，Part List 表中显示选中Part Group下的Parts
+点击Part List标题栏中的Create按钮弹出Add Parts窗体
+查询并选择需要添加到选定Part Group的Part，点击OK，选中的Part被添加到Part Group
+选中Part List中的一条或多条Part，点击Part List标题栏中的Remove按钮，选中Part从选中的Part Group中移除
+属性说明：
+无
+结果：
+Part添加/移除成功
+Assign Part Group To EQP
+用途：
+将Part添加到Part Group
+操作步骤:
+
+打开Part Group菜单，选择1个Port Group，点击Port Group List表左下角的 EQP List Tab，EQP List 表中显示选中Part Group所属的EQP
+点击EQP List标题栏中的Create按钮弹出Assign Part Group To EQP窗体
+查询并选择需要将Part Group添加到的EQP，点击OK， Part Group被添加到选中的EQP
+选中EQP List中的一条或多条EQP，点击EQP List标题栏中的Remove按钮， Part Group从选中EQP中移除
+属性说明：
+无
+结果：
+Part Group添加/移除成功
+SDWT
+用途：
+创建SDWT
+操作步骤:
+
+打开SDWT菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Admin→SDWT
+快速访问	SDWT
+
+点击Create按钮，在右侧表单中显示SDWT新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮，SDWT创建成功
+选中一条SDWT数据，点击右侧标题栏中Modify按钮，可在右侧表单中进行SDWT信息编辑
+选中一条SDWT数据，点击右侧标题栏中Remove按钮，删除选中的SDWT
+属性说明：
+属性	说明
+Fab	工厂
+Area	区域名称
+SDWT	工作组
+Description	描述信息
+
+结果:
+创建/修改/删除SDWT成功
+Assign EQP To SDWT
+用途：
+为SDWT关联EQP
+操作步骤:
+
+打开SDWT菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Admin→Assign EQP To SDWT
+快速访问	Assign EQP To SDWT
+
+根据查询条件查询SDWT，右侧Assigned EQP表显示SDWT下已关联的EQP
+从左侧EQP List to Assign表中查询EQP并选择后，点击”>”, ”<”按钮将选定EQP进行左右移动调整
+点击Confirm后，右侧Assigned EQP表中EQP被关联到SDWT下。
+属性说明
+无
+结果：
+为SDWT关联EQP成功
+Assign User To SDWT
+用途：
+为SDWT关联User
+操作步骤:
+
+打开SDWT菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Admin→Assign User To SDWT
+快速访问	Assign User To SDWT
+
+根据查询条件查询SDWT，右侧Assigned User表显示SDWT下已关联的User
+从左侧User List to Assign表中查询User并选择后，点击”>”, ”<”按钮将选定User进行左右移动调整
+点击Confirm后，右侧Assigned User表中User被关联到SDWT下。
+属性说明
+无
+结果：
+为SDWT关联User成功
+Down Code
+用途：
+创建Down Code
+操作步骤:
+
+打开Down Code菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Admin→Down Code
+快速访问	Down Code
+
+点击Create按钮，在右侧表单中显示Down Code新增表单
+在新增表单中填写或者选择相应的数据，其中带“★”号的字段为必填项
+点击Save按钮，Down Code创建成功
+选中一条Down Code数据，点击右侧标题栏中Modify按钮，可在右侧表单中进行Down Code信息编辑
+选中一条Down Code数据，点击右侧标题栏中Remove按钮，删除选中的Down Code
+属性说明：
+属性	说明
+Fab	工厂
+Area	区域名称
+SDWT	工作组
+EQP Model	EQP Model
+EQP ID	机台ID
+Down Type	Down Code类型： PM/BM
+Down Code	Down 代码
+Description	描述信息
+
+结果:
+创建/修改/删除Down Code成功
+Job Config
+用途：
+配置定时Job
+操作步骤:
+
+打开Job Config菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Admin→Job Config
+快速访问	Job Config
+
+点击Refresh按钮，刷新页面Job配置信息
+点击Add Job按钮，弹出Add Job窗体，填写Job信息后点击OK，Job被添加到列表
+
+从Job List表中选中一条Job数据，点击Delete Job按钮，弹出确认消息框，点击Yes，Job从列表中删除
+从Job List表中选中一条Job数据，点击Pause Job按钮，弹出确认消息框，点击Yes，Job暂停执行
+从Job List表中选中一条Job数据，点击Resume Job按钮，弹出确认消息框，点击Yes，Job恢复执行
+从Job List表中选中一条Job数据，点击Modify Job按钮，弹出Modify Job窗体，
+
+属性说明：
+属性	说明
+Job Group	Job 分组
+Job Name	Job 名
+Job Class Name	Job 所在类名
+Cron Expression	Cron 表达式
+
+结果
+添加/删除/停止/恢复/修改 Job成功
+Enum
+Enum Define
+用途：
+定义枚举使用场景
+操作步骤：
+
+打开Enum Define菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Admin→Enum
+快速访问	Enum
+
+点击Create按钮，在右侧表单显示对应的新增字段
+进行Usage相关字段维护，其中带“★”号的字段为必填项
+点击Save按钮，Usage数据维护成功
+选中一条Usage数据，点击表单上的Modify按钮，可对数据进行编辑
+选中一条Usage数据，点击表单上的 Remove按钮，可对数据进行删除，包含该Usage下创建的Enum Def和Enum Def Value一同被删除
+属性说明：
+属性	说明
+Enum Name	默认显示Usage
+Enum Value	具体的值
+Description	说明
+
+结果：
+Usage维护成功
+Enum Def
+用途：
+定义枚举
+操作步骤：
+
+打开Enum Define菜单，选中一条Usage，在Enum Def区域显示该Usage下维护的Enum Def清单
+点击Create按钮，在右侧表单显示对应的新增字段
+进行Enum Def相关字段维护，其中带“★”号的字段为必填项
+点击Save按钮，Enum Def数据维护成功
+选中一条Enum Def数据，点击表单上的Modify按钮，可对数据进行编辑
+选中一条Enum Def 数据，点击表格或者表单上的 Remove按钮，可对数据进行删除，包含该Enum Def下创建的Enum Def Value一同被删除
+属性说明：
+属性	说明
+Enum Name	枚举名称
+Usage	带出选中的Usage，不可编辑
+Description	说明
+
+结果：
+Enum Def维护成功
+Enum Def Value
+用途：
+定义枚举值
+操作步骤：
+
+打开Enum Define菜单，选中一条Enum Def，在Enum Def Value区域显示该Enum Def维护的Enum Def Value清单
+点击Create按钮，在右侧表单显示对应的新增字段
+进行Enum Def Value相关字段维护，其中带“★”号的字段为必填项
+点击Save按钮，Enum Def Value数据维护成功
+选中一条Enum Def Value数据，点击表单上的Modify按钮，可对数据进行编辑
+选中一条Enum Def Value数据，点击表格或者表单上的 Remove按钮，可对数据进行删除
+属性说明：
+属性	说明
+Enum Name	枚举名称，带出选中的Enum Name，不可编辑
+Enum Value	枚举值
+SEQ	序列
+Description	说明
+
+结果：
+Enum Def Value维护成功
+Name Rule
+Name Rule Def
+用途：
+定义命名规则
+操作步骤：
+
+打开Name Rule菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Configuration→Admin→Name Rule
+快速访问	Name Rule
+
+点击Create后，在右侧表单的Name Rule Def表单中填写建模需要的属性
+进行Name Rule Def相关字段维护，其中带“★”号的字段为必填项
+点击Save按钮，Name Rule Def新增成功
+选中一条数据，点击表单上的Modify按钮，可对数据进行修改
+选中一条数据，点击表单上或者表格上的Remove按钮，可对数据进行删除
+属性说明：
+属性	说明
+Rule Name	规则名称
+Total Length	总长度
+SQL Text	SQL语句
+SEQ	序列
+Division Type	业务类型
+Description	说明
+
+结果：
+Name Rule Def维护成功
+Name Rule Attr Def
+用途：
+定义命名规则的属性
+操作步骤：
+
+打开Name Rule菜单，选中一条Name Rule Def，在Name Rule Attr Def区域显示对应属性信息
+点击Create后，在右侧表单的Name Rule Attr Def表单中填写建模需要的属性
+进行Name Rule Attr Def相关字段维护，其中带“★”号的字段为必填项
+点击Save按钮，Name Rule Attr Def新增成功
+选中一条数据，点击表单上的Modify按钮，可对数据进行修改
+选中一条数据，点击表单上或者表格上的Remove按钮，可对数据进行删除
+属性说明：
+属性	说明
+Rule Name	规则名称
+Section Name	分段名称
+Position	位置
+Section Category	分段类别：Prefix/Serial/Suffix/Delimiter
+Section Type	分段类型
+Section Length	分段长度
+Section Value	分段值
+Exceptional Character	特殊字符
+
+结果：
+Name Rule Attr Def维护成功
+Work Order
+View EQP State
+用途：
+查看装备状态及PM信息
+操作步骤：
+
+打开View EQP State菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Work Order→View EQP State
+快速访问	View EQP State
+
+选择左侧栏中的EQP，页面显示对应EQP的状态及预计PM时间
+点击EQP记录左边的展开按钮，展示EQP的PM设定及Work Order记录，同时显示EQP的图案
+选择Work Order并点击 Detail连接，展示当前Work Order的具体PM Card(包括Checklist, Parts,Labor)
+按钮功能：
+Process PM: 执行PM
+Pause PM：暂停PM
+Delay PM：延迟PM
+Undelay PM：取消延迟PM
+Waive PM：取消PM
+UnWaive PM：撤消取消PM
+Cancel PM：撤消PM
+Reactive PM：激活PM
+Complete PM：完成PM
+Verifying: PM后进行校验
+Monitor：PM后进行Monitor
+属性说明:
+无
+结果:
+操作成功
+Work Order List
+用途：
+根据查询条件查找Work Order，并能创建/修改Work Order
+操作步骤：
+
+打开Work Order List菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Work Order→Work Order List
+快速访问	Work Order List
+
+根据查询条件查找Work Order信息，点击右侧Detail连接查看Work Order详细PM Card信息
+点击Work Order List标题栏中的 Create按钮，弹出Create Work Order窗体，在窗体中填写需要的属性，其中带“★”号的字段为必填项，点击OK按钮，Work Order新增成功
+
+点击Work Order List标题栏中的 Modify按钮，弹出Modify Work Order窗体，修改属性后点击OK按钮，Work Order修改成功
+选择1个Work Order, 点击Remove按钮，删除选中的Work Order
+属性说明：
+属性	说明
+WO ID	Work Order编号
+Area Name	区域名
+SDWT	工作组
+EQP Model	装备Model
+Machine Name	装备名
+WO Type	Work Order 类型
+WO Status	Work Order 状态
+WT ID	关联的WT编号
+WT Name	WT名
+WT Version	WT版本
+Description	描述信息
+
+结果：
+创建/修改/删除Work Order成功
+PM
+TBM
+用途：
+定义PM周期及达到PM时间后的处理方式
+操作步骤：
+
+打开TBM菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	PM→TBM
+快速访问	TBM
+
+点击Create按钮，在右侧表单显示TBM对应的新增字段
+进行TBM相关字段维护，其中带“★”号的字段为必填项
+点击Save按钮，TBM数据维护成功
+选中一条TBM数据，点击表单上的Modify按钮，可对数据进行编辑
+选中一条TBM数据，点击表单上的 Remove按钮，可对数据进行删除
+属性说明：
+属性	说明
+TBM ID	TBM唯一识别号
+FAB	工厂名
+Area	区域名
+SDWT	工作组
+EQP Model	装备Model
+EQP ID	装备唯一识别号
+WT ID	Work Template 唯一识别号
+WT Name	WT名
+WT Version	WT版本
+WO Status	Work Order 状态
+Activity	是否激活
+Description	描述信息
+Valid Date From	有效开始日期
+Valid Date To	有效截止日期
+Period Type	周期类型
+Period Value	周期时间
+Specific Period	指定日期
+Tolerance	容许偏差
+Early Due Date	Early Due时间
+Early Due Action	超过Early Due时间后的动作
+Due Date	Due时间
+Due Action	超过Due时间后的动作
+Over Due Date	Overdue 时间
+Over Due Action	超过Overdue后的动作
+Warning Interval	Warning间隔时间
+Date Base	Reschedule 基准时间
+First Start Date	首次PMS时间
+Last Start Date	最近开始PMS时间
+Last Complete Date	最近一次完成PMS时间
+
+结果：
+创建/修改/删除TBM成功
+PM Calendar
+用途：
+以Calendar样式展示PM/BM
+操作步骤：
+
+打开PM Calendar菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	PM→PM Calendar
+快速访问	PM Calendar
+
+选择查询条件，点击Search按钮，Calendar中展示符合查询条件的结果
+点击EQP将展示EQP的PM信息
+结果：
+Calendar中展示符合查询条件PM/BM
+Report
+PMS Gantt Chart
+用途：
+以甘特图展示指定时间段内的PM/BM信息
+操作步骤：
+
+打开PMS Gantt Chart菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Report→PMS Gantt Chart
+快速访问	PMS Gantt Chart
+
+设置条件，点击Search按钮，以甘特图展示符合查询条件的PM/BM进行情况
+鼠标指在PM记录时，以tip的形式展示PM详细信息
+点击Day，Hour可在按天/按小时展示间进行切换
+结果:
+以甘特图展示PM/BM信息
+Part
+Part Main UI
+用途：
+查询Part并对Part进行操作
+操作步骤：
+
+打开Part Main UI菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Part→Part Main UI
+快速访问	Part Main UI
+
+设置条件，点击Search按钮，Part List中展示查询结果
+选择1个Part，点击View Part Info按钮，弹出Part详细信息
+
+选择1个Part，点击Part History按钮，弹出Part的历史记录
+
+选择1个Part，点击Unload Part按钮，弹出Unload Part窗体
+
+在Unload Part窗体中设定Unload QTY，选择Unload Info，Exchange Info，点击OK按钮，对选中的Part进行Unload操作。
+选择1个Part，点击Load Part按钮，弹出Load Part窗体
+
+输入Load的目标EQP ID，点击OK按钮，选中Part被Load到选中的EQP
+选择1个Part，点击Load Part按钮，弹出Return Part窗体
+
+选择Return Part操作的Reason Code，点击OK按钮，选中Part将提交Return申请
+选择1个Part，点击Repair Part按钮，弹出Repair Part窗体
+
+在Repair Part窗体中输入Repair Info信息，点击OK按钮，选中Part Repair完成
+选择1个Part，点击Modify Part按钮，弹出Modify Part窗体
+
+在Modify Part窗体中输入Modify Info信息，点击OK按钮，选中Part属性修改完成
+选择1个Part，点击Change Location And Status按钮，弹出Change Location And Status窗体
+
+Change Location And Status窗体中输入Change To Info信息，点击OK按钮，选中Part Location And Status变更完成
+选择1个Part，点击Scrap Part按钮，弹出Scrap Part窗体
+
+在Scrap Part窗体中输入Scrap Info信息，点击OK按钮，选中Part 报废完成
+选择1个Part，点击Unscrap Part按钮，弹出Unscrap Part窗体
+
+在Unscrap Part窗体中输入Unscrap Info信息，点击OK按钮，选中Part 取消报废完成
+选择1个Part，点击Delete Part按钮，弹出Delete Part窗体
+
+在Delete Part窗体中输入QTY，点击OK按钮，选中Part 删除完成
+选择1个Part，点击OE Complete按钮，弹出OE Complete窗体
+
+在OE Complete窗体中输入OE Complete Info信息，点击OK按钮，选中Part OE修复完成
+结果:
+Part操作成功
+Manual Receive Part
+用途：
+Manual接收Part
+操作步骤：
+
+打开Manual Receive Part菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Part→Part Management→Part Main UI
+快速访问	Manual Receive Part
+
+点击Create按钮，在右侧表单显示Part Info对应的新增字段
+进行Part Info相关字段维护，其中带“★”号的字段为必填项
+点击Save按钮，Part数据维护成功
+选中一条Part数据，点击表单上的Modify按钮，可对数据进行编辑
+选中一条Part数据，点击表单上的 Remove按钮，可对数据进行删除
+属性说明：
+属性	说明
+Part Master ID	Part Master唯一识别号
+Part ID	Part唯一识别号
+Vendor SN	供应商编号
+SDWT	工作组
+Const Center	成本中心
+Key Part Flag	是否为Key Part标识
+QTY	接收数量
+Warehose Type	仓库类型
+Warehouse Name	仓库名
+Part State	接收默认状态Free
+Product Date	生产日期
+Valid Date	有效期
+Description	描述信息
+
+结果:接收Part成功
+自动接收物料
+用途：
+查看Part历史记录
+操作步骤：
+Part History
+用途：
+查看Part历史记录
+操作步骤：
+
+打开Part History菜单，可通过以下两种方式进入菜单：
+iPMS菜单路径	Part→Part History
+快速访问	Part History
+
+输入查询条件，点击Search按钮。Part History表中展示当前机台的Parts历史记录
+结果:
+显示Part历史记录成功
+Pad Function List
+
+Machine
+用途:
+查看Machine List 选择需要进行PM的Machine
+操作步骤:
+
+打开Machine菜单，可通过点击顶部面包屑Machine进入菜单：
+选择机台，可以在输入框中输入机台名称，模糊搜索机台
+点击View Detail，可以查看到Machine 绑定的 Work Order List
+结果:
+跳转到Machine关联的Work Order 页面
+Work Order
+用途:
+查看Machine 的Work Order List，实现Machine 的PM作业
+操作步骤:
+
+可以通过点击表单上方面包屑的Work Order 选项和在Machine详情中点击View Detail 按钮进入Work Order 页面
+点击Work Order可以查看Work Order 的相关信息
+点击Check List Template右侧的Edit按钮，可以跳转到Work Order 关联的Check List页面
+查看Chek List Template ，点击Preview按钮，可以查看Check List 关联的附件
+
+点击Part Info - Add 按钮，选择 Part ，输入QTY数量，输入Unit 选择Load/Unload状态，点击OK按钮，增加Part使用记录
+
+点Part Info - Modify，可以完善Part的使用情况，点击OK记录
+
+点击Part Info - Remove，可以删除Part 的使用记录
+当PM全部完成时（Part Info Action Complete 为Y ， Check List Template Complete完成）可以点击Complete按钮，完成当前PM
+结果:
+完成当前Work Order 的离线PM
+CheckList
+用途:
+PM作业时的Checklist及人力信息，是Work Order Complete的前提条件之一。
+操作步骤:
+点击左侧Check Template List列表，选择一个Check Template，查看Check Template详情
+选择PM Card Tab可以查看需要执行的Check Item
+
+选择PM Card Tab可以查看需要执行的Check Item
+点击Edit 按钮，可以执行Edit操作
+
+输入Actual Value 和 Actual Time 并点击Done 记录实际读数和实际执行时间，点击Done保存
+
+输入Actual Value 和 Actual Time 并点击Done 记录实际读数和实际执行时间，点击Done保存，即为完成了当前Check Item
+点击Labor,可以通过Add、Remove 操作对人员工时进行统计，并点击Save 进行保存
+
+结果:
+完成当前Check List
+Business Scenarios
+Semi-Standard Compliance
+The following semi-standard are followed:
+E10
+E30
+E58
+
+Important Disclaimers and Legal Information
+
+Page 2 / 2

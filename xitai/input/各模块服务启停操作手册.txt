@@ -1,0 +1,620 @@
+各模块服务启动操作手册
+
+摘要
+本文档是对各模块服务启停操作的过程整理
+2024年9月
+
+版本信息
+日期	版本	描述
+2024/9/6	V1.0	李遥初始整理
+
+目录
+1	启停优先级	6
+2	基础服务	7
+2.1	超融合	7
+2.1.1.	启动	7
+2.1.2.	停止	7
+2.1.3.	检查	8
+2.2	AD域	9
+2.2.1.	启动	9
+2.2.2.	停止	9
+2.2.3.	检查	9
+2.3	堡垒机	10
+2.3.1.	启动	10
+2.3.2.	停止	10
+2.3.3.	检查	11
+2.4	云桌面	11
+2.4.1.	启动	11
+2.4.2.	停止	11
+2.4.3.	检查	12
+3	应用系统	13
+3.1	SAP服务	13
+3.1.1.	启动	13
+3.1.2.	停止	14
+3.1.3.	检查	16
+3.2	新OA服务	17
+3.2.1.	启动	17
+3.2.2.	停止	17
+3.2.3.	检查	18
+3.3	老OA服务	20
+3.3.1.	启动	20
+3.3.2.	停止	22
+3.3.3.	检查	24
+3.4	新U8C服务	27
+3.4.1.	启动	27
+3.4.2.	停止	29
+3.4.3.	检查	31
+3.5	老U8服务	31
+3.5.1.	启动	31
+3.5.2.	停止	32
+3.5.3.	检查	34
+3.6	MES服务	34
+3.6.1.	启动	34
+3.6.2.	停止	36
+3.6.3.	检查	38
+3.7	WMS服务	40
+3.7.1.	启动	40
+3.7.2.	停止	41
+3.7.3.	检查	42
+3.8	邮箱服务	43
+3.8.1.	启动	43
+3.8.2.	停止	43
+3.8.3.	检查	43
+3.9	加密服务	44
+3.9.1.	启动	44
+3.9.2.	停止	44
+3.9.3.	检查	44
+3.10	桌管服务	45
+3.10.1.	启动	45
+3.10.2.	停止	46
+3.10.3.	检查	46
+3.11	DMS服务	46
+3.11.1.	启动	46
+3.11.2.	停止	46
+3.11.3.	检查	46
+3.12	杀毒服务	48
+3.12.1.	启动	48
+3.12.2.	停止	48
+3.12.3.	检查	48
+
+启停优先级
+
+基础服务：超融合、AD域、堡垒机、桌面云
+数据库服务：生产数据库、HANA数据库、OA数据库、MES数据库、WMS数据库、新旧U8C数据库、大数据数据库
+应用服务：SAP服务、OA服务、MES服务、WMS服务、邮箱服务、加密服务、桌管服务、DMS服务、杀毒服务
+备份服务：EMC Networker
+基础服务
+超融合
+
+启动
+加电自启动
+停止
+关闭虚机服务器，浏览器中输入：https://10.2.6.160 和https://10.2.6.150 ，
+虚拟机→控制台，进入系统后关机。
+
+关闭超融合平台，实体机→关闭电源。
+
+检查
+新超融合开机后自动启动（旧超融合手动启动），登录https://10.2.6.160/和https://10.2.6.150/ 地址访问超融合查看物理机是否正常启动。
+
+查看网络是否有异常，有异常会打x。
+
+点击一键检测，查看健康状态。
+
+AD域
+
+启动
+随超融合一起启动
+停止
+正常关机操作
+检查
+
+检查上面三台域控服务器是否正常启动：
+10.2.8.90
+10.2.8.91
+10.2.8.92
+堡垒机
+
+启动
+远程登录堡垒机应用服务器/10.2.8.201，系统服务会自动启动
+
+停止
+
+检查
+
+登录堡垒机查看业务服务器，抽查web资产、windows资产、linux资产服务器登录连接是否异常情况
+
+云桌面
+
+启动
+加电启动
+停止
+关闭所有用户的云桌面
+浏览器中输入：https://10.2.6.100:9250，云桌面管理→选择某用户云桌面→关机。
+
+关闭云系统
+系统运维→系统配置→平台下电
+
+检查
+
+应用系统
+SAP服务
+
+启动
+先启动数据库，再启动应用服务。
+通过堡垒机访问10.2.6.171（Master）和10.2.6.172（Slave）
+
+crm_mon -r 确认集群的状态
+
+开启资源	crm resource start rsc_SAPHanaTopology_HAP_HDB00
+
+crm_mon -r 观察rsc_SAPHanaTopology_HAP_HDB00状态变为started
+
+开启资源	crm resource start rsc_SAPHana_HAP_HDB00
+
+crm_mon -r 观察rsc_SAPHana_HAP_HDB00状态变为started
+
+通过堡垒机访问10.2.8.121应用服务器
+
+执行如下命令：
+su – s4padm
+sapcontrol -nr 00 -function StartSystem
+sapcontrol -nr 01 -function StartSystem
+停止
+先停应用，再停数据库。
+通过堡垒机访问10.2.8.121应用服务器
+
+执行如下命令：
+su – s4padm
+sapcontrol –nr 00 –function StopSystem
+sapcontrol –nr 01 –function StopSystem
+通过堡垒机访问10.2.6.171（Master）和10.2.6.172（Slave）
+
+先进行集群资源状态检查
+
+以下操作在Masters节点上进行：
+执行集群关闭资源	crm resource stop rsc_SAPHana_HAP_HDB00
+
+crm_mon -r 监控状态，直到输出显示为rsc_SAPHana_HAP_HDB00为stopped
+
+集群关闭资源	crm resource stop rsc_SAPHanaTopology_HAP_HDB00
+
+crm_mon -r 监控状态，直到输出显示为rsc_ SAPHanaTopology_HAP_HDB00为stopped。
+
+检查
+登录SAP系统验证是否正常启动
+
+应用检查执行如下命令：
+su – s4padm
+sapcontrol –nr 00 –function GetProcessList
+sapcontrol –nr 01 –function GetProcessList
+显示Green表示启动状态，显示Stopped表示停止状态。
+
+crm_mon -r 监控HANA数据库状态：服务启动状态。
+
+crm_mon -r 监控HANA数据库状态：服务停止状态。
+
+新OA服务
+
+启动
+登录数据库服务器启动数据库服务
+su - oracle #切换到oracle用户
+sqlplus /nolog #进入sqlplus
+conn / as sysdba #以超级管理员权限登录
+startup #启动数据库实例
+quit #退出
+lsnrctl start #启动监听
+通过堡垒机远程登录OA应用服务器服务器，启动应用
+登录后进入 cd /usr/weaver/Resin4/bin/ 执行 ./startresin.sh 启动应用；
+
+停止
+通过堡垒机远程登录OA应用服务器服务器，先停应用。
+
+登录后进入 cd /usr/weaver/Resin4/bin/ 执行 ./stopresin.sh 停止应用；
+
+登录数据库服务器停止数据库服务
+su - oracle #切换到oracle用户
+lsnrctl stop #关闭监听器
+sqlplus /nolog #进入sqlplus
+shutdown immediate #关闭数据库实例
+quit #退出
+
+检查
+打开浏览器，登录OA网址http://ec.sidtek.cn:8181，如果加载登录界面正常，则说明OA应用已经启动正常，若能够登录进入系统，则说明应用与数据库链接正常；
+
+打开微搜窗口，查看搜索是否正常，如果无法搜索或者报错，则需要重新手动启动微搜服务
+cd /usr/weaver/Esearch2/bin
+执行./startresin.sh
+
+手机打开emobile，如果进入聊天、工作台、考勤均正常，则说明手机端启动正常；若手机端启动异常，则需要通过堡垒机登录手机端应用服务器10.2.8.126，然后进到/emp，执行./start.sh；
+
+老OA服务
+
+启动
+启动OA电脑端应用服务，打开文件夹D:\seeyon\A6\ApacheJetspeed-bak\bin，执行startup.bat服务;
+
+启动OA手机端应用服务，打开文件夹D:\seeyon\M3\tomcat\bin，执行startup.bat服务
+
+观察桌面命令框中启动文件执行情况，（预计启动时长十分钟）等到系统提示启动成功后，即可通过PC网址登录，同时使用M3登录手机端APP。
+
+停止
+通过堡垒机远程登录OA应用服务器
+登录后进入此文件夹D:\seeyon\A6\ApacheJetspeed-bak\bin
+
+执行shutdown.bat脚本、即可停止OA电脑端服务
+
+打开文件夹D:\seeyon\M3\tomcat\bin
+
+执行shutdown.bat脚本、即可停止OA手机端服务
+
+数据库系统停止
+打开服务器管理器-工具-服务-右键（选择停止服务）
+
+关闭服务器，至此完成OA服务器的停止工作。
+
+检查
+当PC端网页进入登录界面，则说明OA系统PC端服务已完成启动；
+
+当手机端APP可以进入登录界面，则说明OA系统手机端服务已完成启动；
+
+登录系统检查服务是否正常
+登录系统，查看协同工作，查看自己的代办和已办已发工作，判断数据是否有丢失
+
+发起一个测试流程，再次判断服务是否正常启动
+
+手机端登录查看自己的考勤，判断数据加载是否正常。
+
+新U8C服务
+新U8C 10.2.8.135:8086
+
+启动
+检查数据库是否已启动，若未启动则右键启动数据库服务；按下快捷键【win】+【X】打开如下菜单。单击【任务管理器】- 【打开服务】
+
+登录后进入此文件夹D:\U8CERP。D:U8CERP,找到startup.bat 文件，右键以管理员身份运行，直到出现现 Server startup in xx ms 表示服务已经正常启动。窗口可以最小化，不要关闭。
+
+停止
+通过堡垒机远程登录U8C应用服务器
+
+登录后进入此文件夹D:\U8CERP。在U8CERP中找到stop.bat 文件，右键以管理员身份运行,窗口自动关闭，服务停止。
+
+数据库系统停止
+按下快捷键【win】+【X】打开如下菜单。单击【任务管理器】- 【打开服务】
+
+找到 OralceServiceORCL,可以进行服务器的停止。 （先关监听再关闭服务）
+
+检查
+登录客户端确认
+老U8服务
+老U8C 10.2.8.136:8082
+
+启动
+通过堡垒机远程登录U8C应用服务器
+
+检查数据库是否已启动，若未启动则右键启动数据库服务；
+
+登录后进入此文件夹D:\U8CERP。D:U8CERP,找到startup.bat 文件，右键以管理员身份运行，直到出现现 Server startup in xx ms 表示服务已经正常启动。窗口可以最小化，不要关闭。
+
+停止
+通过堡垒机远程登录U8C应用服务器
+
+登录后进入此文件夹D:\U8CERP。在U8CERP中找到stop.bat 文件，右键以管理员身份运行,窗口自动关闭，服务停止。
+
+数据库系统停止
+按下快捷键【win】+【X】打开如下菜单。单击【任务管理器】- 【打开服务】
+
+找到 SQL Server （MSSQLSERVER）,右击停止服务。
+
+检查
+登录客户端确认
+MES服务
+数据库
+中间件(redis/rabbitmq)
+代理软件（nginx/keepalived/haproxy）
+应用服务（system/messerver）
+日志服务
+
+启动
+数据库启动
+#linux切换oracle用户
+su - oracle
+#启动监听
+lsnrctl start 启动监听
+lsnrctl status 查看监听状态
+#管理员登录
+sqlplus / as sysdba 登录数据库
+#启动数据库
+startup 启动数据库
+#打开mesdb的PDB
+alter pluggable database mesdb open;
+#会话切换到mesdb
+alter session set container=mesdb;
+中间件redis、rabbitmq
+10.2.8.157、10.2.8.158、10.2.8.159
+systemctl status redis sentinel
+systemctl start redis sentinel
+systemctl stop redis sentinel
+systemctl restart redis sentinel
+
+systemctl status rabbitmq-server
+systemctl start rabbitmq-server
+systemctl stop rabbitmq-server
+systemctl restart rabbitmq-server
+代理软件（nginx/keepalived/haproxy）
+Nginx、keepalived、haproxy、meswebui、uacui、pmswebui
+10.2.8.155、10.2.8.156
+systemctl status nginx
+systemctl start nginx
+systemctl stop nginx
+systemctl restart nginx
+
+systemctl status keepalived
+systemctl start keepalived
+systemctl stop keepalived
+systemctl restart keepalived
+
+systemctl status haproxy
+systemctl start haproxy
+systemctl stop haproxy
+systemctl restart haproxy
+应用(MES)
+System、oicweb、modeler、messerver
+10.2.8.151、10.2.8.152
+systemctl status messys@MESSYS1
+systemctl start messys@MESSYS1
+systemctl stop messys@MESSYS1
+systemctl restart messys@MESSYS1
+
+systemctl status mesmod@MESMOD1
+systemctl start mesmod@MESMOD1
+systemctl stop mesmod@MESMOD1
+systemctl restart mesmod@MESMOD1
+
+systemctl status mesweb@OICWEB1
+systemctl start mesweb@OICWEB1
+systemctl stop mesweb@OICWEB1
+systemctl restart mesweb@OICWEB1
+
+systemctl status messvr@MESSERVER1
+systemctl start messvr@MESSERVER1
+systemctl stop messvr@MESSERVER1
+systemctl restart messvr@MESSERVER1
+日志（es/kibana）
+10.2.8.167
+systemctl status elasticsearch
+systemctl start elasticsearch
+systemctl stop elasticsearch
+systemctl restart elasticsearch
+
+systemctl status kibana
+systemctl start kibana
+systemctl stop kibana
+systemctl restart kibana
+注：已经设置过开机自启动的中间件（redis/rabbitmq）、代理软件（nginx/haproxy/keepalvied）、日志（es/kibana）服务不用手动启动，服务器开机会自启动，开机完成后可在各自宿主机使用systemctl status 软件名称查看守护进程状态。由于数据库目前暂未添加自启动机制，应用守护进程在开机后连接不到数据库自启动失败，开机后需先手动启动数据库，再手动使用守护进程命令启动应用。
+停止
+日志（es/kibana）
+10.2.8.167
+systemctl status elasticsearch
+systemctl start elasticsearch
+systemctl stop elasticsearch
+systemctl restart elasticsearch
+
+systemctl status kibana
+systemctl start kibana
+systemctl stop kibana
+systemctl restart kibana
+应用(MES)
+System、oicweb、modeler、messerver
+10.2.8.151、10.2.8.152
+systemctl status messys@MESSYS1
+systemctl start messys@MESSYS1
+systemctl stop messys@MESSYS1
+systemctl restart messys@MESSYS1
+
+systemctl status mesmod@MESMOD1
+systemctl start mesmod@MESMOD1
+systemctl stop mesmod@MESMOD1
+systemctl restart mesmod@MESMOD1
+
+systemctl status mesweb@OICWEB1
+systemctl start mesweb@OICWEB1
+systemctl stop mesweb@OICWEB1
+systemctl restart mesweb@OICWEB1
+
+systemctl status messvr@MESSERVER1
+systemctl start messvr@MESSERVER1
+systemctl stop messvr@MESSERVER1
+systemctl restart messvr@MESSERVER1
+代理软件（nginx/keepalived/haproxy）
+Nginx、keepalived、haproxy、meswebui、uacui、pmswebui
+10.2.8.155、10.2.8.156
+systemctl status nginx
+systemctl start nginx
+systemctl stop nginx
+systemctl restart nginx
+
+systemctl status keepalived
+systemctl start keepalived
+systemctl stop keepalived
+systemctl restart keepalived
+
+systemctl status haproxy
+systemctl start haproxy
+systemctl stop haproxy
+systemctl restart haproxy
+中间件redis、rabbitmq
+10.2.8.157、10.2.8.158、10.2.8.159
+systemctl status redis sentinel
+systemctl start redis sentinel
+systemctl stop redis sentinel
+systemctl restart redis sentinel
+
+systemctl status rabbitmq-server
+systemctl start rabbitmq-server
+systemctl stop rabbitmq-server
+systemctl restart rabbitmq-server
+数据库停止
+#linux切换oracle用户
+su - oracle
+#管理员登录
+sqlplus / as sysdba 登录数据库
+#停止数据库
+shutdown immediate 停止数据库
+注：数据库停止命令参数
+nomal --->所有连接都断开时才能关闭；
+transactional --->等待事务结束后，主动断开连接；
+immediate --->主动断开事务和连接
+abort --->立刻关闭数据库，危险操作，不使用这个参数
+检查
+数据库状态验证
+服务端验证
+监听状态验证
+lsnrctl status
+#端口验证
+netstat -nultp|grep 1521|grep LISTEN
+
+端口监听状态实例
+
+客户端验证
+navicat或者dbeaver测试连接状态
+进程状态验证
+类别	名称及名称	systemctl 名称	java进程
+应用(MES)	system: 7000	oicweb: 8081	modeler: 8083	messerver: 6001	systemctl status messys@MESSYS1	systemctl status mesmod@MESMOD1	systemctl status mesweb@OICWEB1	systemctl status messvr@MESSERVER1	jps -v|grep MESSYS	jps -v|grep MESMOD	jps -v|grep OICWEB	jps -v|grep MESSERVER
+代理	nginx	keepalived	haproxy	systemctl status nginx	systemctl status keepalived	systemctl status haproxy
+中间件	redis: 6379/26379	rabbitmq: 5672/15672/25672	systemctl status redis sentinel	systemctl status rabbitmq-server
+日志	es:9200	kibana:5601	systemctl status elasticsearch	systemctl status kibana
+数据库	oracle:1521
+
+端口监听状态验证
+#PROD环境查看后端进程端口
+cat /opt/*/*/property/prod.properties
+
+#查看端口监听状态
+netstat -nultp|grep 端口号 |grep LISTEN
+
+工程版本验证
+#PROD环境查看后端进程版本
+ll /opt/*/*/proc/prod/
+
+功能验证
+名称	环境类别	UI地址
+MESUI/PMSUI	UAT	http://10.2.8.31/
+Kibana日志UI	UAT	http://10.2.8.31:5601/
+MESUI/PMSUI	PROD	http://10.2.8.168/
+Kibana日志UI	PROD	http://10.2.8.167:5601/
+
+WMS服务
+
+启动
+选择对应的网站，点击启动/重新启动。
+
+双击桌面上的后台服务快捷方式 启动轮循服务
+
+启动数据库
+#linux切换oracle用户
+su - oracle
+#启动监听
+lsnrctl start 启动监听
+lsnrctl status 查看监听状态
+#管理员登录
+sqlplus / as sysdba 登录数据库
+#启动数据库
+startup 启动数据库
+#打开wmsdb的PDB
+alter pluggable database wmsdb open;
+#会话切换到wmsdb
+alter session set container=wmsdb;
+停止
+关闭网页后端
+查看网站运行状态，正常显示地球蓝色标志，运行状态正常；有正方形黑色标志，网站停止运行；可在右侧点击停止，启动或停止网站服务。
+
+关闭后端轮循服务
+在服务器右下角找到服务程序，右键点击图标，再点击退出。输入密码：xtwms，确认关闭。
+
+关闭数据库
+#linux切换oracle用户
+su - oracle
+#管理员登录
+sqlplus / as sysdba 登录数据库
+#停止数据库
+shutdown immediate 停止数据库
+注：数据库停止命令参数
+nomal --->所有连接都断开时才能关闭；
+transactional --->等待事务结束后，主动断开连接；
+immediate --->主动断开事务和连接
+abort --->立刻关闭数据库，危险操作，不使用这个参数
+检查
+验证是否登录成功
+http://10.2.8.161:8082/#/login?redirect=%2Fdashboard
+
+邮箱服务
+
+启动
+服务器加电后，邮件服务会自动启动；
+如果启动后，服务没有启动则通过Xshell登录服务器，执行reboot指令。
+若邮件服务仍未启动，则需要执行/usr/local/u-mail/app/tools/umail_services.sh restart脚本。
+
+停止
+/usr/local/u-mail/app/tools/umail_services.sh stop 脚本
+检查
+登录邮箱地址http://xm.sidtek.cn:8088/#/login，查看服务是否正常启动
+登录邮箱后发送一封邮件、测试功能是否正常。
+
+加密服务
+
+启动
+通过堡垒机登录加密服务器（10.2.8.233）确保服务器连接（图1），服务器启动可正常启动（图2）
+
+停止
+检查
+
+通过堡垒机登录加密服务器（10.2.8.233）管理后台，检查终端连接（在线）情况
+
+通过堡垒机登录加密网关服务器（10.2.6.237），确保服务器连接（图1），服务器启动可正常启动（图2）
+
+通过堡垒机登录加密网关服务器（10.2.6.237），检查服务运行情况
+ps -ef|grep java 查看服务命令（确保以下几个服务启用，红色框为OA系统，其他为DMS系统）
+
+桌管服务
+
+启动
+通过堡垒机登录桌管服务器（10.2.6.238），确保服务器启动可正常连接（图1），检查-如下服务是否全部启用（图2）
+
+停止
+检查
+
+DMS服务
+桌面上有一个【Run-manager-tools.bat】的启动快捷命令，双击命令即可出现右侧的控制台页面；
+
+启动
+启动服务则点击【全部启动】按钮；
+停止
+停止服务则点击【全部停止】按钮；
+检查
+
+敏捷加密重启之后的操作
+PS：受制于敏捷加密机制的问题影响，需要将网盘的文件夹共享之后再挂载到敏捷的服务器上才能实现文件的加解密；
+检查是否挂载成功：
+命令：df -h
+只有4个挂载目录都在则正常，如图所示：
+
+先按照第一步启动系统，重启之后手动挂载：
+正式和测试都需要集成，总共四个目录需要挂载命令：
+命令行:
+mount.cifs //10.2.8.88/kabala-webapps.r20240520 /mnt/win-share -o user=administrator,password=Aa123456
+mount.cifs //10.2.8.88/kabaladate /mnt/kabalarune -o user=administrator,password=Aa123456
+mount.cifs 	//10.2.8.88/kabala-run /mnt/kabalarun -o user=administrator,password=Aa123456
+mount.cifs //10.2.8.86/kabala-webapps.r20240520 /mnt/kabala86 -o user=administrator,password=Aa123456
+
+挂载之后效果如下：
+
+1、网盘系统如何检查加密接口授权是否可以用？
+答：http://10.2.8.233:6060/DGS/dg/interface/checkLicense
+在浏览器上请求上方地址，如果返回{"success":true,"retcode":1006}则说明接口授权正常，如图：
+
+杀毒服务
+
+启动
+通过堡垒机登录杀毒服务器（10.2.6.236），确保服务器启动可正常连接（图1），进入Windows-检查是否登录控制平台（登录后自动启动相关服务）（图2）
+
+停止
+检查

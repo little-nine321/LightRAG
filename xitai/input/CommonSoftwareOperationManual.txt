@@ -1,0 +1,105 @@
+1
+OA system usage
+2
+IOS
+PC  directly through website http://ec.sidtek.cn:8181 login, enter your account and password.
+
+PC client download from (win+R) \\192.168.66.23\soft\01-常用软件\17-OA客户端.
+Mobile devices can download through the following QR code, and after downloading, set the server address
+http://ms.sidtek.cn:8999 ，Enter your account  and  password to login.
+Android
+如何登录新OA？
+
+
+
+OA login account is the new work number
+ your job number is ST00xxx.(if you don’t  know your job number,you can ask HR)
+OA password
+OA account
+
+Initial password: sidtek20.21
+Please change your password immediately after you go online.
+Password of new OA account
+3
+Email system usage
+4
+5
+Mailbox login
+3. After employment, the IT Department will register an enterprise mailbox for each colleague; You can directly log in through 
+
+the web page (email system link: http://xm.sidtek.cn:8088), or use the email login software (such as Foxmail, etc.).
+6
+4. Foxmail set mailbox login
+Log in by entering an account number (such as a tianqibing@sidtek.cn) and password
+7
+5. Set the mailbox login on the outlook computer
+Note: It is not necessary to check the sending server (select to use the same settings as the receiving server) when logging in with secure password authentication (SAP).
+5.1 Account Settings Select manual settings or other server types-POP or IMAP input email address (XXX@sidtek.cn), the server for receiving and sending emails is XM. Sidtek. CN-input account name and password (email account and email password)-click the test link on the next page. Complete the setup by passing.
+8
+5. Set the mailbox login on the outlook mobile phone
+Note: Port security must be turned off. Both the outbound and inbound server accounts and passwords need to be as follows to log in.
+5.2 Select manual setting for account setting — — IMAP (XXX@sidtek.cn), IMAP receives the IMAP. Sidtek. CN of the mail server, the port number is 143, and the port has no security. The IMAP account and password are the same as the password of the mailbox account. The settings of the SMTP outbound mail server are the same as the IMAP receiving mail server. Click Login.
+9
+The use of printers
+10
+6. Printer connection
+Win + R Open the computer running tool (or open the windows icon in the lower left corner-open the running tool in the windows system)-enter \ \ PDC-select the printer to be connected and double-click to install the printer (for example, install the printer of the Personnel Administration Department).
+11
+Once the installation is complete, select the printer you installed when printing.
+12
+Wireless network usage
+13
+7. Wireless Internet Connection
+
+Click the wireless network button, select the wireless network (sidtek) to be connected, and enter the password Xt191123 to complete the connection.
+Please note that the first letter of the password is capitalized and there is an English dot at the end of the password.
+14
+The use of desktop cloud
+15
+1. Startup method:
+Thin Client Power On: Power On button is located behind the monitor to the box
+
+2. How to log in to win10:
+2.1 Computer account and initial password
+Account Number: Full Name
+Initial password: sidtek20.21
+
+2.2 Change the initial password
+1) Keyboard: "ctrl + alt + del"
+2) Select "Change Password"
+
+3. Shutdown method:
+3.1 Shut down the thin client: Click "Start Menu" and "Shut Down"
+3.2 Power off the monitor
+The computer is turned on and off
+16
+Open word/excel/PowerPoint respectively
+
+Click File Options.
+
+How to log in to win10:
+1) Computer account and initial password
+Account Number: Full Name
+Initial password: sidtek20.21
+Configure the office software
+Configure the RTX software
+Account No.: Job No
+Password: None
+
+Configure the server IP
+
+
+
+
+
+
+Change password:
+Click File File Settings
+17
+The use of shared folders
+18
+Some important addresses:
+Common software: \\192.168.66.23\soft
+File sharing: \\192.168.66.3\安徽熙泰智能科技有限公司
+OA：http://ec.sidtek.cn:8181
+E-Mail：http://xm.sidtek.cn:8088

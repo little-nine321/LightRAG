@@ -1,0 +1,104 @@
+制造程序/说明书 Manufacturing Procedure / Specification Sheet
+标题 Subject: IT基础设施管理程序 Guidance on IT infrastructure Management
+文件编号 Document No.: W-IT-IT-02	版本 Rev: A0	页数 Page 20 of 20
+
+目的Purpose
+为加强公司IT基础设施的管理，使IT基础设施管理更加规范，提高IT设施整体使用效率，确保公司IT设备合法、安全和有效地使用以及员工在使用IT设备时有规可循、有据可依，特制定本管理程序。
+In order to strengthen the management of the company's IT infrastructure, improve the overall efficiency of IT facilities, and ensure the legal, safe and effective use of IT equipment, this management procedure is formulated.
+范围Scope
+本程序适用于公司全体员工及公司所属的全部IT基础设施。
+This procedure applies to all employees of the Company and all IT infrastructure of the Company.
+定义Definition
+IT基础设施：主要包括为保证员工正常办公而配备的台式计算机、云桌面计算机、笔记本计算机及其配套软件、为构建公司信息系统及生产系统运行环境而部署的信息基础设施硬件，以及为保证公司办公和会议顺利开展而购置的办公自动化设备、投影仪、视频会议相关设备以及与此相关的配件耗材等，不包含生产相关设备及设备附属设施。
+IT infrastructure: mainly including to ensure the normal office equipped with desktop computer, cloud desktop computer, notebook computer and its supporting software, to build the company information system and production system operating environment deployed information infrastructure hardware, and to ensure the company office and meeting smoothly purchase office automation equipment, projector, video conference related equipment and related accessories consumables, does not include production related equipment and equipment ancillary facilities.
+职责Responsibility
+IT管理部：
+IT management department:
+负责制定与维护《IT基础设施管理程序》；
+Responsible for formulating and maintaining the IT Infrastructure Management Procedures;
+负责统筹公司IT基础设施管理工作并落实IT基础设施管理措施；
+Responsible for coordinating the company's IT infrastructure management work and implementing the IT infrastructure management measures;
+负责IT办公区固定资产的分配原则制定、购买申请以及资产调拨；
+Responsible for the formulation of IT office area fixed assets allocation principles, purchase application and asset allocation;
+负责统筹公司IT资产报废工作。
+Responsible for coordinating the scrapping of IT assets of the company;
+各部门：
+Departments:
+负责本部门IT基础设施管控工作，贯彻落实公司IT基础设施管理程序，执行公司IT基础设施相关规定，建立IT基础设施工作责任制。
+Responsible for the IT infrastructure control work of the department, implement the company's IT infrastructure management procedures, implement the company's IT infrastructure related regulations, and establish the IT infrastructure work responsibility system.
+管理内容程序Manage content programs
+IT资产管理：
+Management of computers and mobile devices in the production workshop:
+IT固定资产包含台式计算机、云桌面计算机、笔记本计算机、显示器、复印/打印机、电视机、平板、视频会议设备等；
+IT fixed assets include desktop computers, cloud desktop computers, notebook computers, monitors, photocopies / printers, TV sets, tablets, video conferencing equipment, etc.
+低值品根据财务有关规定，单项价值在规定限额以下并且使用期限不满一年，使用过程中基本保持原形态的物品，包括鼠标、键盘、计算机配件（硬盘、内存）、U盘、硒鼓、墨粉、碳粉盒、墨水、色带及打印机/复印机组件等；
+Low value products according to the relevant financial regulations, individual value below the prescribed limit and the use period is less than one year, the use of the original form of items, including mouse, keyboard, computer accessories (hard disk, memory), U disk, toner drum, toner, toner cartridge, ink, ribbon and printer / copier components.
+IT管理部为IT资产的管理单位，负责全公司的IT资产运维及台账管理（需遵循谁使用谁管理的原则），包含资产采购申请、入库及更新、分发、调拨、盘点、报废、IT仓库管理等工作，由相应资产担当负责具体工作；
+The IT management Department is the management unit of IT assets, responsible for the operation and maintenance and ledger management of the whole company (the principle of who uses who manages shall be followed), including asset procurement application, warehousing and update, distribution, allocation, inventory, scrapping, IT warehouse management, etc. The corresponding assets are responsible for the specific work.
+IT管理部负责公司所有IT资产的技术支持工作，包含到货验收、安装调试、维修、报废鉴定等工作，以及IT资产仓库管理工作，由相应资产担当负责具体工作；
+The IT management department is responsible for the technical support of all IT assets of the company, including the arrival acceptance, installation and commissioning, maintenance, scrapping appraisal, as well as the management of IT assets warehouse. The corresponding assets are responsible for the specific work.
+公司财务部负责创建固定资产编号。IT管理部配合财务部定期对公司IT资产进行年度盘点工作，做到账账相符、账实相符；
+The financial department of the company is responsible for creating the fixed asset number. The IT Management Department cooperates with the Finance Department to make regular annual inventory of IT assets to ensure the consistency between accounts and facts;
+各部门为IT资产的使用单位，负责部门内部的资产管理，使用保管、报修等具体工作。；
+Prohibit the use of external email addresses, internal email systems restrict external sending. The email and attachments should be copied to the immediate supervisor, who should conduct content review and supervision;
+IT固定资产调拨应在OA上发起《信息类-信息资产调拨/退还/报废申请单流程》进行调拨（人员离职后必须提交《信息资产调拨/退还/报废申请单流程》给IT管理部，不得私自内部调拨）。
+IT fixed assets allocation shall be initiated on OA in the "Information-Information Asset Allocation / Return / scrappage Application Form Process" for allocation (the personnel must submit the "Information Asset Allocation / Return / scrappage Application Form Process" to the IT Management Department, and no internal allocation).
+计算中心机房管理：
+Computing center management:
+计算中心机房安装门禁系统，门禁权限仅对IT管理部负责人、服务器工程师、网络工程师、信息安全工程师开通，非公司内部IT人员进入数据机房需由IT管理部服务器运维工程师人员陪同才能进入，并进行登记；
+The access control system is installed in the computer room of the computing center. The access control authority is only opened to the head of the IT management department, server engineer, network engineer and information security engineer. Non-company internal IT personnel entering the data room must be accompanied by the server operation and maintenance engineer of the IT management department to enter and register;
+进入中心机房人员必须注意保持环境卫生，严禁在机房内进行如下行为：吃食物、饮水、抽烟、随地吐痰、随意，堆砌杂物、乱丢弃垃圾。对于意外或工作过程中对机房地板和其他物品造成的污损，必须及时采取妥当的措施进行清理，机房需定期进行必要保洁，保持机房内无尘洁净的环境；
+Personnel entering the central machine room must pay attention to maintain the environmental hygiene, and it is strictly prohibited to carry out the following behaviors in the machine room: eating food, drinking water, smoking, spitting, random, piling up debris and discarding garbage. For accidents or pollution caused by the machine room, appropriate measures must be taken in time to clean, and the machine room should be cleaned regularly to maintain the dust-free clean environment in the machine room;
+所有机房施工人员如需进入在用的机房区域施工，需经过IT管理部主管同意，并由服务器运维工程师陪同一起进入机房施工；
+If all the construction personnel of the machine room need to enter the usable machine room area for construction, they shall be agreed by the supervisor of IT management department, and accompanied by the server operation and maintenance engineer to enter the machine room for construction;
+服务器存储设备的安装由IT管理部服务器运维工程师完成，需要使用的操作系统及IP地址由业务部门提出相关需求，IT管理部不负责除操作系统外的其他应用程序的安装和配置；
+The installation of the server storage equipment is completed by the server operation and maintenance engineer of the IT management department. The operating system and IP address required to be used are required by the business department. The IT management department is not responsible for the installation and configuration of other applications other than the operating system;
+服务器存储运行情况包括硬件运行状态和系统运行状态，IT工程师需每日检查服务器及存储硬件运行状态，并将硬件状态填写入《机房巡检记录表》，详细的系统运行状态在监控平台上可以查看，主要巡检内容包括CPU使用率、内存使用率、存储使用率是否超过设定阈值；
+Server storage operation including hardware running status and system running status, IT engineers should check daily server and storage hardware running status, and the hardware status into the room inspection records, detailed system running status can be viewed on the monitoring platform, the main inspection content including CPU usage, memory utilization, storage utilization exceeds the set threshold;
+服务器故障发生时，在未影响业务系统前提下，由服务器运维工程师先判断故障类型，对可以独立解决的故障，立即修复，如果故障发生并影响业务系统，应在第一时间通知IT管理部主管，并联系维保供应商协商解决方案；
+When the server failure occurs, under the premise of not affecting the business system, the server operation and maintenance engineer shall first judge the fault type, and immediately repair the fault that can be solved independently. If the fault occurs and affects the business system, it shall notify the IT management department supervisor in the first time, and contact the maintenance supplier to negotiate the solution;
+网络设备的安装由IT管理部网络运维工程师完成。网络设备运行情况包括硬件设备运行状态和软件运行状态，网络运维工程师需每日检查网络设备（防火墙、核心交换机、上网行为管理、无线AC等）的运行状态；
+The installation of network equipment is completed by IT management engineer. The operation status of network equipment includes the operation status of hardware equipment and software. The network operation and maintenance engineer shall check the operation status of network equipment (firewall, core switch, Internet access behavior management, wireless AC, etc.) daily;
+网络设备故障发生时，由网络运维工程师查看是否影响办公网络及业务系统，若影响在可控范围内，根据运维经验及技术文档立即解决；若故障影响范围较大且波及业务系统，第一时间联系IT管理部主管及维保供应商协商解决方案；
+When the network equipment failure occurs, the network operation and maintenance engineer shall check whether the office network and business system are affected. If the impact is within a controllable range, immediately solve the operation and maintenance experience and technical documents; If the failure is large and affects the business system, immediately contact the IT management department supervisor and the maintenance supplier to negotiate the solution;
+严禁员工私自接入路由器，交换机等网络设备；
+Employees are strictly prohibited to access routers, switches and other network equipment;;
+当机房巡检过程中发现计算中心机房内异常时（如服务器异常、漏水、电力异常等），应根据异常指标确认故障设备或地点位置，第一时间通知IT管理部主管，由主管协调资源进行处理（若故障设备为其他部门负责，则需协调跨部门资源），主管根据设备故障严重程度、影响范围、故障影响时间判断是否需要进行上报，情况严重的在上报后，按照领导批示的应急方案协调并组织对问题进行进一步解决；
+When any abnormality is found in the computing center (such as server abnormality, water leakage, and power abnormality, etc.), confirm the location of the fault equipment or location according to the abnormal indicators, immediately notify the supervisor of the IT management department to coordinate the resources (if the fault equipment is responsible for other departments, coordinate the cross-departmental resources) and the supervisor for the need to report the problem according to the severity of the equipment fault, the scope and the impact time.
+当机房或信息系统发生停电时参考《IT系统停机应急处理流程图》进行处理。
+When the power failure occurs in the machine room or information system, refer to the Emergency Handling Flow chart of IT System shutdown.
+遵从性：
+Compliance
+本制度未尽事宜，按国家有关法律法规、《员工手册》等规定执行。公司IT基础设施管理应符合当地法律，本制度如与当地法律、法规发生冲突时，按照当地法律、法规执行。
+Matters not covered in this system shall be implemented according to the relevant national laws and regulations, the Employee Handbook and other provisions. The IT infrastructure management of the Company shall comply with local laws. In case that this system conflicts with local laws and regulations, local laws and regulations shall be implemented.
+生效与解释：
+Effectiveness and Interpretation:
+本制度自发布之日起实施；本制度的解释权及修订权归IT管理部所有。
+This system shall come into effect from the date of its publication; The interpretation and revision rights of this system belong to the IT Management Department
+参考文件Reference documents
+《信息安全管理程序》
+Employee Handbook
+《IT资产管理制度》
+IT Asset Management System
+《IT数据中心管理制度》
+IT data center management system
+相关表单Associated forms/Record
+《IT设备需求申请单》
+IT equipment demand request form
+《信息资产调拨/退还/报废申请单》
+Information asset allocation / return / scrap application form
+《机房人员出入表》
+Machine room personnel access table
+《机房巡检记录表》
+Machine room inspection record table
+附件 Attachment
+附录1 IT设备异常处理流程图
+附录2 IT系统停机应急处理流程图
+
+附件01：Appendix 01
+流程步骤	Steps	流程图	Flow Chart	责任人	Owner	相关文件/记录Relevant Record
+
+附件02：Appendix 02
+流程步骤	Steps	流程图	Flow Chart	责任人	Owner	相关文件/记录Relevant Record
+
+20 / 20

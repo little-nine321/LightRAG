@@ -1,0 +1,64 @@
+IT管理部
+2025年 01月14日
+
+版本信息
+序号	修订类型	修订内容简述	修订日期	编写	审批人
+首版	创建	2024.10.11	余勇
+首版	修改SDWAN软件及连接方式	2024.12.29	余勇
+首版	增加会议终端使用	2025.01.14	余勇
+
+目 录
+TOC \O "1-1" \H \U HYPERLINK \L _TOC8673 一、 境外会议软件推荐清单：	4
+HYPERLINK \L _TOC9623 二、 SDWAN账号及密码：	4
+HYPERLINK \L _TOC12358 三、 SD-WAN软终端使用说明	4
+HYPERLINK \L _TOC27192 四、 SD-WAN软终端使用说明	6
+HYPERLINK \L _TOC7187 五、 技术支持:	8
+
+境外会议软件推荐清单：
+
+[推荐]Microsoft Teams https://www.microsoft.com/zh-cn/microsoft-teams/meetings-apps (​https:​\/​​\/​www.microsoft.com​\/​zh-cn​\/​microsoft-teams​\/​meetings-apps​)
+[可用]腾讯会议（大陆）/voov meeting（腾讯会议境外名称）
+https://meeting.tencent.com/ (​https:​\/​​\/​meeting.tencent.com​\/​​)
+[可用]webex
+https://www.webex.com/ (​https:​\/​​\/​www.webex.com​\/​​)
+[需VPN/SDWAN可用]ZOOM
+https://zoom.us/ (​https:​\/​​\/​zoom.us​\/​​)
+5、[需VPN/SDWAN可用]Google meet
+https://workspace.google.com/products/meet/ (​https:​\/​​\/​workspace.google.com​\/​products​\/​meet​\/​​)
+
+上述客户端（除Google meet）均可在公司企业软件商店进行下载；
+
+SD-WAN账号及密码：
+当前开通6个公共账号，每个账号仅同时登录一人，个人账号联系IT申请
+
+账号1：Meeting01
+密码：sidtek2024
+账号2：Meeting02
+密码：sidtek2024
+账号03-06类似
+
+SD-WAN软终端使用说明
+
+电脑端软件下载：
+
+电脑端下载链接：http://dms.sidtek.cn:5880/share/40d5080882684879 (​http:​\/​​\/​dms.sidtek.cn:5880​\/​share​\/​40d5080882684879​)
+手机端软件下载：
+①苹果手机：软件应用商店搜索 Ivanti Secure Access Client
+
+②[金山文档] 安卓手机(1).zip (​https:​\/​​\/​kdocs.cn​\/​l​\/​cjDAWVTgrrUD​)
+
+SD-WAN软终端使用说明
+
+安装软件，创建服务器链接 https://e2.vpn.net.cn/wuhuxitai (​https:​\/​​\/​e2.vpn.net.cn​\/​wuhuxitai​)
+
+登录用户名及密码（Meeting01~06）
+
+如遇杀毒软件报错，请全部允许
+
+技术支持:
+
+信息安全负责人：马斌斌 18609639485
+网络负责人：黄鹏 13665516836
+IT管理部：余勇 13007510888
+
+跨境VPN及会议软件使用操作手册V3

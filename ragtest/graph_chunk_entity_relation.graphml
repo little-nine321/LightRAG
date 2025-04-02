@@ -1,0 +1,1909 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d6" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="中国石化加油卡系统">
+      <data key="d0">中国石化加油卡系统</data>
+      <data key="d1">system</data>
+      <data key="d2">A system used by Sinopec for managing fuel card operations across their stations.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="石化盈科信息技术有限责任公司">
+      <data key="d0">石化盈科信息技术有限责任公司</data>
+      <data key="d1">organization</data>
+      <data key="d2">A company possibly responsible for the IT solutions and management systems, like the one used by Sinopec.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="中石化站级管理系统操作手册">
+      <data key="d0">中石化站级管理系统操作手册</data>
+      <data key="d1">manual</data>
+      <data key="d2">An operations manual for the Sinopec station-level management system, detailing how to operate its functions.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="加油站">
+      <data key="d0">加油站</data>
+      <data key="d1">location</data>
+      <data key="d2">Refers to the physical locations where the fuel card system and station-level management system are used.&lt;SEP&gt;The gas station where the described activities and operations take place.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36&lt;SEP&gt;chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="加油员">
+      <data key="d0">加油员</data>
+      <data key="d1">person</data>
+      <data key="d2">The staff working at the gas station, responsible for refueling and related transactions.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="加油站站长">
+      <data key="d0">加油站站长</data>
+      <data key="d1">person</data>
+      <data key="d2">The manager of the gas station, overseeing the operations and staff.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="黑名单">
+      <data key="d0">黑名单</data>
+      <data key="d1">category</data>
+      <data key="d2">A list of blocked or invalid fuel cards that are denied service at the fuel pumps.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="黑卡">
+      <data key="d0">黑卡</data>
+      <data key="d1">category</data>
+      <data key="d2">A fuel card that is blocked or invalid and appears on the black list.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="灰名单">
+      <data key="d0">灰名单</data>
+      <data key="d1">category</data>
+      <data key="d2">A list of fuel cards that have encountered transaction issues and are temporarily locked.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="灰卡">
+      <data key="d0">灰卡</data>
+      <data key="d1">category</data>
+      <data key="d2">A fuel card that is temporarily locked due to a transaction issue and appears on the grey list.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="白名单">
+      <data key="d0">白名单</data>
+      <data key="d1">category</data>
+      <data key="d2">A list of valid staff cards that can only be used at specific gas stations.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="加油卡">
+      <data key="d0">加油卡</data>
+      <data key="d1">category</data>
+      <data key="d2">IC cards used in the Sinopec fuel card program for refueling services.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="用户卡">
+      <data key="d0">用户卡</data>
+      <data key="d1">subcategory</data>
+      <data key="d2">Type of fuel card issued to individual or multiple users by the oil company for direct use at gas stations.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="员工卡">
+      <data key="d0">员工卡</data>
+      <data key="d1">subcategory</data>
+      <data key="d2">Cards issued to employees for use in the gas station's operations.&lt;SEP&gt;Type of fuel card used by gas station staff for work-related transactions.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36&lt;SEP&gt;chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="维修卡">
+      <data key="d0">维修卡</data>
+      <data key="d1">subcategory</data>
+      <data key="d2">Type of fuel card used by the company for maintenance and testing of fuel pumps.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="验泵卡">
+      <data key="d0">验泵卡</data>
+      <data key="d1">subcategory</data>
+      <data key="d2">Type of fuel card used for metering fuel pumps, typically kept by the station manager or fuel supervisor.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="回叫">
+      <data key="d0">回叫</data>
+      <data key="d1">event</data>
+      <data key="d2">An event where the management system requests the fuel pump to re-upload transaction data.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="TTC">
+      <data key="d0">TTC</data>
+      <data key="d1">abbreviation</data>
+      <data key="d2">Transaction sequence number used by fuel pumps to maintain a log and check for missing transactions.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="交接班">
+      <data key="d0">交接班</data>
+      <data key="d1">event</data>
+      <data key="d2">The process where gas station staff exchange shifts, duties, and responsibilities.&lt;SEP&gt;交接班 refers to the handover process between shifts, including the summary and transfer of transaction information.&lt;SEP&gt;交接班是加油站员工在班次更替时进行的一系列流程，包括复核加油流水等。&lt;SEP&gt;交接班是加油站工作人员在班次结束时进行的一项操作，涉及交易的总结和交接。</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36&lt;SEP&gt;chunk-132815f103f96ba0f2ebea2d939783c5&lt;SEP&gt;chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="中国石化">
+      <data key="d0">中国石化</data>
+      <data key="d1">organization</data>
+      <data key="d2">A major oil and petrochemical company in China.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="加油机">
+      <data key="d0">加油机</data>
+      <data key="d1">device</data>
+      <data key="d2">The machine at gas stations used for dispensing fuel.&lt;SEP&gt;加油机是加油站用来给车辆加油的设备，记录每次交易的泵码数。</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36&lt;SEP&gt;chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="管控PC机">
+      <data key="d0">管控PC机</data>
+      <data key="d1">device</data>
+      <data key="d2">The control PC used for managing and overseeing fuel card transactions.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="省中心">
+      <data key="d0">省中心</data>
+      <data key="d1">location</data>
+      <data key="d2">The provincial center responsible for processing and managing fuel card data.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="全国总中心">
+      <data key="d0">全国总中心</data>
+      <data key="d1">location</data>
+      <data key="d2">The national center that oversees and coordinates fuel card operations across the country.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="卡">
+      <data key="d0">卡</data>
+      <data key="d1">device</data>
+      <data key="d2">Refers to the fuel cards used in transactions at the gas station.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="油枪">
+      <data key="d0">油枪</data>
+      <data key="d1">device</data>
+      <data key="d2">The nozzle used for dispensing fuel from the fuel pump.&lt;SEP&gt;油枪, or 'fuel nozzle,' is the part of the fuel dispenser that is used to deliver fuel into vehicles.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36&lt;SEP&gt;chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="油罐">
+      <data key="d0">油罐</data>
+      <data key="d1">device</data>
+      <data key="d2">The tank that stores fuel at the gas station.&lt;SEP&gt;油罐, or 'oil tank,' is the container where fuel is stored before it is dispensed into vehicles.&lt;SEP&gt;油罐是加油站储存燃油的容器。</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36&lt;SEP&gt;chunk-132815f103f96ba0f2ebea2d939783c5&lt;SEP&gt;chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="POS机">
+      <data key="d0">POS机</data>
+      <data key="d1">device</data>
+      <data key="d2">The point of sale terminal used for processing card transactions.</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </node>
+    <node id="液位仪">
+      <data key="d0">液位仪</data>
+      <data key="d1">equipment</data>
+      <data key="d2">A device used to automatically obtain the oil level in a tank.&lt;SEP&gt;An instrument used for measuring the level of fuel in the storage tanks.&lt;SEP&gt;Equipment used to measure the fuel level in storage tanks.&lt;SEP&gt;用于自动取得油罐中油高的设备。</data>
+      <data key="d3">chunk-c0a4038694d9770e737cad9ad5a08c36&lt;SEP&gt;chunk-00076af4405b55d283842f061755d79b&lt;SEP&gt;chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="加油单元">
+      <data key="d0">加油单元</data>
+      <data key="d1">organization</data>
+      <data key="d2">加油单元是加油站内部的一个组织单位，负责维护加油流水等数据的序号。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="加油站员工">
+      <data key="d0">加油站员工</data>
+      <data key="d1">person</data>
+      <data key="d2">加油站员工负责执行加油站的日常操作，包括交接班和日结等。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="日结">
+      <data key="d0">日结</data>
+      <data key="d1">event</data>
+      <data key="d2">The end-of-day settlement process that involves generating various reports and managing employee cards.&lt;SEP&gt;日结是对加油站一日内所有班次的进销存信息进行汇总，并生成日报表的过程。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae&lt;SEP&gt;chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="第三方支付">
+      <data key="d0">第三方支付</data>
+      <data key="d1">category</data>
+      <data key="d2">第三方支付是指除了加油卡和现金之外的支付方式，如微信、银行卡等。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="泵码">
+      <data key="d0">泵码</data>
+      <data key="d1">category</data>
+      <data key="d2">泵码, or 'pump code,' is a unique identifier for the pump used in fuel dispensing operations.&lt;SEP&gt;泵码是加油机记录每笔交易后油枪的走字数，用于核对付油量。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5&lt;SEP&gt;chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="一键重启，关机按钮">
+      <data key="d0">一键重启，关机按钮</data>
+      <data key="d1">equipment</data>
+      <data key="d2">一键重启和关机按钮是工控机界面上用于重启或关机系统的按钮。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="差异数">
+      <data key="d0">差异数</data>
+      <data key="d1">category</data>
+      <data key="d2">差异数是加油机走字数与付油合计之间的差额。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="尾差数">
+      <data key="d0">尾差数</data>
+      <data key="d1">category</data>
+      <data key="d2">尾差数是金额合计与单价乘以付油合计之间的差额。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="系统操作说明">
+      <data key="d0">系统操作说明</data>
+      <data key="d1">category</data>
+      <data key="d2">系统操作说明是指导员工如何使用系统的文档或指南。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="系统登录">
+      <data key="d0">系统登录</data>
+      <data key="d1">event</data>
+      <data key="d2">系统登录是员工通过验证身份进入加油站的计算机管理系统的过程。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="数据通信">
+      <data key="d0">数据通信</data>
+      <data key="d1">category</data>
+      <data key="d2">数据通信是加油站系统与中心或其他系统之间进行数据传输的过程。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="监控收银">
+      <data key="d0">监控收银</data>
+      <data key="d1">event</data>
+      <data key="d2">监控收银是加油站员工通过系统监控和管理收银过程的活动。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="扫码支付">
+      <data key="d0">扫码支付</data>
+      <data key="d1">event</data>
+      <data key="d2">扫码支付是顾客通过扫描二维码进行支付的一种方式。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="加油流水">
+      <data key="d0">加油流水</data>
+      <data key="d1">category</data>
+      <data key="d2">加油流水是指加油站在一定时间内的加油交易记录。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="发票">
+      <data key="d0">发票</data>
+      <data key="d1">category</data>
+      <data key="d2">发票是加油站为顾客提供的一种交易凭证。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="油票">
+      <data key="d0">油票</data>
+      <data key="d1">category</data>
+      <data key="d2">油票是加油站发行的一种预付费凭证。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="润滑油">
+      <data key="d0">润滑油</data>
+      <data key="d1">category</data>
+      <data key="d2">润滑油是加油站提供的另一种产品，用于车辆的润滑保养。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="石化网点编码">
+      <data key="d0">石化网点编码</data>
+      <data key="d1">category</data>
+      <data key="d2">石化网点编码是用于识别加油站身份的唯一编码。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="账号">
+      <data key="d0">账号</data>
+      <data key="d1">category</data>
+      <data key="d2">账号是员工登录系统时使用的识别信息。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="密码">
+      <data key="d0">密码</data>
+      <data key="d1">category</data>
+      <data key="d2">密码是保护账号安全的一种验证方式。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="系统管理员">
+      <data key="d0">系统管理员</data>
+      <data key="d1">person</data>
+      <data key="d2">系统管理员是负责管理和维护加油站计算机系统的员工。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="初始化管理员">
+      <data key="d0">初始化管理员</data>
+      <data key="d1">person</data>
+      <data key="d2">初始化管理员是系统首次登录时使用的默认管理员账号。</data>
+      <data key="d3">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </node>
+    <node id="Oil Products">
+      <data key="d0">Oil Products</data>
+      <data key="d1">category</data>
+      <data key="d2">Refers to the various types of oil products including成品油 (finished oil products) and润滑油 (lubricating oils).&lt;SEP&gt;Refers to the various types of oil products such as成品油 (finished oil products) and润滑油 (lubricating oils).</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="System Operations">
+      <data key="d0">System Operations</data>
+      <data key="d1">event</data>
+      <data key="d2">The processes and tasks carried out within the oil station system, such as adding or deleting oil products, adjusting oil information, and equipment maintenance.&lt;SEP&gt;The processes and tasks carried out within the oil station system, such as adding or deleting oil products, and adjusting oil information.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="Equipment">
+      <data key="d0">Equipment</data>
+      <data key="d1">category</data>
+      <data key="d2">Refers to the physical equipment present at the oil station that requires maintenance and management.&lt;SEP&gt;Refers to the physical equipment present at the oil station that requires maintenance.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="Oil Station System">
+      <data key="d0">Oil Station System</data>
+      <data key="d1">organization</data>
+      <data key="d2">A system used by oil stations for managing operations such as oil product adjustments, equipment maintenance, and business management.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="灰名单查询">
+      <data key="d0">灰名单查询</data>
+      <data key="d1">event</data>
+      <data key="d2">A function within the system used to query gray-listed cards over a certain period or check if a specific card is on the gray list.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="黑名单查询">
+      <data key="d0">黑名单查询</data>
+      <data key="d1">event</data>
+      <data key="d2">A function within the system used to query if a card is on the black list, either at the provincial or national level.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="业务管理">
+      <data key="d0">业务管理</data>
+      <data key="d1">category</data>
+      <data key="d2">Refers to the overall category of business management functionalities within the oil station system.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="常用油品设置">
+      <data key="d0">常用油品设置</data>
+      <data key="d1">event</data>
+      <data key="d2">A feature in the oil station system that allows setting up frequently used oil products based on the station's usage.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="油品调节">
+      <data key="d0">油品调节</data>
+      <data key="d1">event</data>
+      <data key="d2">A process in the system for adjusting the information of oil products in the tanks.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="设备管理">
+      <data key="d0">设备管理</data>
+      <data key="d1">category</data>
+      <data key="d2">Refers to the management of equipment information within the oil station system.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="设备信息维护">
+      <data key="d0">设备信息维护</data>
+      <data key="d1">event</data>
+      <data key="d2">The process of maintaining and updating equipment information in the oil station system.</data>
+      <data key="d3">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </node>
+    <node id="新增">
+      <data key="d0">新增</data>
+      <data key="d1">action</data>
+      <data key="d2">The act of adding new information or records into the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="保存">
+      <data key="d0">保存</data>
+      <data key="d1">action</data>
+      <data key="d2">The act of saving information or records in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="取消">
+      <data key="d0">取消</data>
+      <data key="d1">action</data>
+      <data key="d2">The act of canceling or discarding unsaved changes in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="修改">
+      <data key="d0">修改</data>
+      <data key="d1">action</data>
+      <data key="d2">The act of making changes to existing information or records in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="删除">
+      <data key="d0">删除</data>
+      <data key="d1">action</data>
+      <data key="d2">The act of removing information or records from the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="查询">
+      <data key="d0">查询</data>
+      <data key="d1">action</data>
+      <data key="d2">An event or action where information is retrieved from the system based on certain criteria.&lt;SEP&gt;The act of searching for specific information or records in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689&lt;SEP&gt;chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="油机信息维护">
+      <data key="d0">油机信息维护</data>
+      <data key="d1">function</data>
+      <data key="d2">The function that allows for the maintenance of oil dispenser information in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="油罐信息维护">
+      <data key="d0">油罐信息维护</data>
+      <data key="d1">function</data>
+      <data key="d2">The function that allows for the maintenance of oil tank information in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="油枪信息维护">
+      <data key="d0">油枪信息维护</data>
+      <data key="d1">function</data>
+      <data key="d2">The function that allows for the maintenance of fuel nozzle information in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="连接配置维护">
+      <data key="d0">连接配置维护</data>
+      <data key="d1">function</data>
+      <data key="d2">The function that allows for the configuration and maintenance of connection information in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="应用信息维护">
+      <data key="d0">应用信息维护</data>
+      <data key="d1">function</data>
+      <data key="d2">The function that allows for the maintenance of application information for terminal connections in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="pos机信息维护">
+      <data key="d0">pos机信息维护</data>
+      <data key="d1">function</data>
+      <data key="d2">The function that allows for the maintenance of POS machine information in the system.</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </node>
+    <node id="摄像头信息维护">
+      <data key="d0">摄像头信息维护</data>
+      <data key="d1">event</data>
+      <data key="d2">The '摄像头信息维护' is a specific maintenance event for setting up and updating camera information on smart oil machines.&lt;SEP&gt;The function that allows for the maintenance of camera information in the system, limited to smart oil dispensers.&lt;SEP&gt;摄像头信息维护是智能油机的一个功能，用于设置和更新摄像头信息。</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689&lt;SEP&gt;chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="POS机维护">
+      <data key="d0">POS机维护</data>
+      <data key="d1">category</data>
+      <data key="d2">POS机维护是一个涉及维护和管理POS机相关信息的功能类别。&lt;SEP&gt;The 'POS机维护' refers to the maintenance category for point of sale (POS) machines, which involves various maintenance activities and settings.</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="智能油机">
+      <data key="d0">智能油机</data>
+      <data key="d1">category</data>
+      <data key="d2">智能油机, or 'Smart Oil Machine,' is a type of advanced fuel dispensing machine that requires maintenance and configuration.&lt;SEP&gt;智能油机是一种具有高级功能的油机，支持摄像头信息和油枪位置信息的维护。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="油枪位置信息维护">
+      <data key="d0">油枪位置信息维护</data>
+      <data key="d1">event</data>
+      <data key="d2">The '油枪位置信息维护' is a maintenance event focused on updating the position information of fuel nozzles on smart oil machines.&lt;SEP&gt;油枪位置信息维护是智能油机的一个功能，用于维护油枪的位置信息。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="终端配置">
+      <data key="d0">终端配置</data>
+      <data key="d1">event</data>
+      <data key="d2">终端配置, or 'Terminal Configuration,' is the process of setting up and maintaining terminal information, including authentication methods.&lt;SEP&gt;终端配置是维护终端信息的过程，涉及认证方式的修改和保存。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="初始化维护">
+      <data key="d0">初始化维护</data>
+      <data key="d1">event</data>
+      <data key="d2">初始化维护 involves the initial setup or reset of various parameters in smart oil machines after hardware changes.&lt;SEP&gt;初始化维护是在油机更换主板后进行的一系列维护操作，包括油机、油枪和油罐的初始化。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="初始化查询">
+      <data key="d0">初始化查询</data>
+      <data key="d1">event</data>
+      <data key="d2">初始化查询 is the process of checking the records of initialization maintenance activities for smart oil machines.&lt;SEP&gt;初始化查询是查询初始化记录的操作，用于确认维护的历史和状态。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="交易流水查询">
+      <data key="d0">交易流水查询</data>
+      <data key="d1">event</data>
+      <data key="d2">交易流水查询 is the process of querying and printing detailed records of transactions that have occurred.&lt;SEP&gt;交易流水查询是查询和打印加油站历史交易流水明细的操作。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="交易流水错误更正">
+      <data key="d0">交易流水错误更正</data>
+      <data key="d1">event</data>
+      <data key="d2">交易流水错误更正 is the process of correcting errors found in the transaction records of smart oil machines.&lt;SEP&gt;交易流水错误更正是当发现交易流水记录有问题时进行的错误更正操作。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="班结">
+      <data key="d0">班结</data>
+      <data key="d1">event</data>
+      <data key="d2">The event of summarizing the incoming oil, sales, and return tank information for a shift to generate a handover report.&lt;SEP&gt;班结 is the process of concluding a shift by summarizing and confirming the transactions that have taken place.&lt;SEP&gt;班结是加油站工作人员在班次结束时进行的总结操作，涉及交易的汇总和确认。&lt;SEP&gt;统计本班次进油、销售、回罐等进销存信息，生成交接班报表的事件。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b&lt;SEP&gt;chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="班次维护">
+      <data key="d0">班次维护</data>
+      <data key="d1">event</data>
+      <data key="d2">班次维护 involves the manual or automatic updating of shift information to ensure accuracy.&lt;SEP&gt;班次维护是手动或自动维护班次信息的操作，用于确保班次信息的准确性。</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="油机">
+      <data key="d0">油机</data>
+      <data key="d1">device</data>
+      <data key="d2">油机, or 'fuel dispenser,' is the machine used for dispensing fuel at gas stations.</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="摄像头">
+      <data key="d0">摄像头</data>
+      <data key="d1">device</data>
+      <data key="d2">摄像头, or 'camera,' is the device used for security and monitoring purposes at the fuel dispensing area.</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="主板">
+      <data key="d0">主板</data>
+      <data key="d1">component</data>
+      <data key="d2">主板, or 'motherboard,' is the main circuit board of a computer or device, such as a fuel dispenser.</data>
+      <data key="d3">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </node>
+    <node id="查询对话框">
+      <data key="d0">查询对话框</data>
+      <data key="d1">category</data>
+      <data key="d2">A dialog box used for entering query conditions such as date and shift number.&lt;SEP&gt;用于输入查询条件的对话框，如日期、班次号。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="班次明细记录">
+      <data key="d0">班次明细记录</data>
+      <data key="d1">category</data>
+      <data key="d2">A database entry that records detailed information about shifts.&lt;SEP&gt;记录班次详细信息的数据库条目。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="复核操作">
+      <data key="d0">复核操作</data>
+      <data key="d1">category</data>
+      <data key="d2">An operation used to review and confirm shift records.&lt;SEP&gt;用于对班次流水进行复核的操作。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="交易流水明细列表">
+      <data key="d0">交易流水明细列表</data>
+      <data key="d1">category</data>
+      <data key="d2">A list displaying detailed transaction flow information.&lt;SEP&gt;显示交易流水详细信息的列表。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="泵码交接">
+      <data key="d0">泵码交接</data>
+      <data key="d1">event</data>
+      <data key="d2">The event of exchanging pump codes and querying the handover information of pump codes.&lt;SEP&gt;交接泵码和查询泵码交接信息的事件。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="油罐交接">
+      <data key="d0">油罐交接</data>
+      <data key="d1">event</data>
+      <data key="d2">The event of recording and querying the handover of oil tanks.&lt;SEP&gt;油罐的交接录入和查询的事件。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="油罐交接录入界面">
+      <data key="d0">油罐交接录入界面</data>
+      <data key="d1">category</data>
+      <data key="d2">The interface used for entering oil tank handover information.&lt;SEP&gt;用于录入油罐交接信息的界面。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="交班油高">
+      <data key="d0">交班油高</data>
+      <data key="d1">category</data>
+      <data key="d2">The oil level data at the time of handover.&lt;SEP&gt;交接班时油罐的油高数据。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="交班升数">
+      <data key="d0">交班升数</data>
+      <data key="d1">category</data>
+      <data key="d2">The volume of oil at the time of handover.&lt;SEP&gt;交接班时油罐的油量数据。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="支付类型更正">
+      <data key="d0">支付类型更正</data>
+      <data key="d1">event</data>
+      <data key="d2">The event of correcting payment types for employee card transaction flows.&lt;SEP&gt;对加油机上送的员工卡交易流水进行支付类型更正的事件。</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="员工卡交易流水">
+      <data key="d0">员工卡交易流水</data>
+      <data key="d1">category</data>
+      <data key="d2">The transaction flow of employee cards that requires payment type correction.</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="校验日志查询">
+      <data key="d0">校验日志查询</data>
+      <data key="d1">category</data>
+      <data key="d2">A function to query validation logs for checking the consistency of handover reports and transaction flow data.</data>
+      <data key="d3">chunk-00076af4405b55d283842f061755d79b</data>
+    </node>
+    <node id="Cash Payment">
+      <data key="d0">Cash Payment</data>
+      <data key="d1">category</data>
+      <data key="d2">Represents transactions where fuel is paid for with cash.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Fuel Ticket Payment">
+      <data key="d0">Fuel Ticket Payment</data>
+      <data key="d1">category</data>
+      <data key="d2">Represents transactions where fuel is paid for with fuel tickets.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Account Payment">
+      <data key="d0">Account Payment</data>
+      <data key="d1">category</data>
+      <data key="d2">Represents transactions where fuel is paid for on account.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="IC Card Payment">
+      <data key="d0">IC Card Payment</data>
+      <data key="d1">category</data>
+      <data key="d2">Represents transactions where fuel is paid for using an IC card.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="IC Card Points Payment">
+      <data key="d0">IC Card Points Payment</data>
+      <data key="d1">category</data>
+      <data key="d2">Represents transactions where fuel is paid for using IC card points.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Total Fuel Summary">
+      <data key="d0">Total Fuel Summary</data>
+      <data key="d1">category</data>
+      <data key="d2">Represents the aggregate total of fuel transactions.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="System Validation">
+      <data key="d0">System Validation</data>
+      <data key="d1">category</data>
+      <data key="d2">The process of validating fuel transaction information within the system.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Business Management Module">
+      <data key="d0">Business Management Module</data>
+      <data key="d1">organization</data>
+      <data key="d2">A module in the system used for managing business operations, including validation logs.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Fuel Tank Handover">
+      <data key="d0">Fuel Tank Handover</data>
+      <data key="d1">event</data>
+      <data key="d2">The event of transferring fuel tank responsibilities between shifts.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Shift Handover">
+      <data key="d0">Shift Handover</data>
+      <data key="d1">event</data>
+      <data key="d2">The event of transferring responsibilities and information between shifts.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="One-Click Shift 结束">
+      <data key="d0">One-Click Shift 结束</data>
+      <data key="d1">event</data>
+      <data key="d2">A feature that automates the end-of-shift procedures.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Shift Handover Report">
+      <data key="d0">Shift Handover Report</data>
+      <data key="d1">category</data>
+      <data key="d2">A report that summarizes the details of a shift handover.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Real-Time Employee Business Query">
+      <data key="d0">Real-Time Employee Business Query</data>
+      <data key="d1">category</data>
+      <data key="d2">A feature that allows for querying real-time business information of employees during a shift.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Daily Settlement">
+      <data key="d0">Daily Settlement</data>
+      <data key="d1">event</data>
+      <data key="d2">The process of settling all transactions at the end of the day.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Daily Settlement Query">
+      <data key="d0">Daily Settlement Query</data>
+      <data key="d1">category</data>
+      <data key="d2">A feature that allows for querying settled transactions based on specific dates and times.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Fuel Payment Daily Report">
+      <data key="d0">Fuel Payment Daily Report</data>
+      <data key="d1">category</data>
+      <data key="d2">A report that summarizes fuel payment transactions after daily settlement.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Transaction Validation Log">
+      <data key="d0">Transaction Validation Log</data>
+      <data key="d1">category</data>
+      <data key="d2">A log that records the details of system validations performed during transactions.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Shift Change">
+      <data key="d0">Shift Change</data>
+      <data key="d1">event</data>
+      <data key="d2">The act of one shift ending and another beginning, involving the transfer of duties.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Fuel Pump">
+      <data key="d0">Fuel Pump</data>
+      <data key="d1">equipment</data>
+      <data key="d2">The equipment used to dispense fuel to customers.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Oil Tank">
+      <data key="d0">Oil Tank</data>
+      <data key="d1">category</data>
+      <data key="d2">A generic category for the storage containers used for holding oil, monitored by the system.&lt;SEP&gt;The storage container for fuel within the station.&lt;SEP&gt;The storage containers for oil that are monitored by the Static Liquid Level Monitoring System.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c&lt;SEP&gt;chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Fuel Station">
+      <data key="d0">Fuel Station</data>
+      <data key="d1">organization</data>
+      <data key="d2">The facility where fuel is sold and transactions are processed.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Fuel Dispenser">
+      <data key="d0">Fuel Dispenser</data>
+      <data key="d1">equipment</data>
+      <data key="d2">The machine that dispenses fuel into vehicles.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="Payment Terminal">
+      <data key="d0">Payment Terminal</data>
+      <data key="d1">equipment</data>
+      <data key="d2">The device used for processing payments at the fuel station.</data>
+      <data key="d3">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </node>
+    <node id="加油信息">
+      <data key="d0">加油信息</data>
+      <data key="d1">category</data>
+      <data key="d2">加油信息是一个分类，涉及加油站的各种业务操作和管理信息。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="付油日报">
+      <data key="d0">付油日报</data>
+      <data key="d1">event</data>
+      <data key="d2">A daily report that summarizes fuel payment transactions at the gas station.&lt;SEP&gt;付油日报是加油站的一种日常报表， used for tracking fuel payment transactions.</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="销售日报">
+      <data key="d0">销售日报</data>
+      <data key="d1">event</data>
+      <data key="d2">A daily report that summarizes sales transactions at the gas station.&lt;SEP&gt;销售日报是加油站的一种日常报表， used for tracking sales transactions.</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="用户卡销售统计">
+      <data key="d0">用户卡销售统计</data>
+      <data key="d1">event</data>
+      <data key="d2">A feature that statistics the sales of user cards at the gas station.&lt;SEP&gt;用户卡销售统计是加油站的一项功能，用于统计用户卡的销售信息。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="销售日报副表">
+      <data key="d0">销售日报副表</data>
+      <data key="d1">event</data>
+      <data key="d2">A supplementary sales report that summarizes the fueling situations of user cards.&lt;SEP&gt;销售日报副表是加油站的一种报表，用于汇总用户卡加油情况。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="员工管理">
+      <data key="d0">员工管理</data>
+      <data key="d1">category</data>
+      <data key="d2">A management function that deals with staff information, roles, and card distribution at the gas station.&lt;SEP&gt;员工管理是加油站的一项管理功能，包括员工信息维护、员工角色维护和员工卡分配等。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="员工信息维护">
+      <data key="d0">员工信息维护</data>
+      <data key="d1">event</data>
+      <data key="d2">A function within staff management for maintaining and querying employee information.&lt;SEP&gt;员工信息维护是用于维护和查询加油站员工信息的功能。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="员工角色维护">
+      <data key="d0">员工角色维护</data>
+      <data key="d1">event</data>
+      <data key="d2">A function within staff management for assigning permissions to different staff roles.&lt;SEP&gt;员工角色维护是用于为不同员工角色赋予权限的功能。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="员工卡分配">
+      <data key="d0">员工卡分配</data>
+      <data key="d1">event</data>
+      <data key="d2">A process of assigning employee cards to staff members within the gas station.&lt;SEP&gt;员工卡分配是将员工卡分配给员工的过程，确保员工能正常使用加油机。</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="系统">
+      <data key="d0">系统</data>
+      <data key="d1">system</data>
+      <data key="d2">The system used for managing the gas station's operations, including report generation and employee management.</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="报表">
+      <data key="d0">报表</data>
+      <data key="d1">category</data>
+      <data key="d2">Various reports generated by the system to track the station's operations and sales.</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="角色">
+      <data key="d0">角色</data>
+      <data key="d1">category</data>
+      <data key="d2">Defined roles within the gas station that determine the permissions and responsibilities of staff members.</data>
+      <data key="d3">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </node>
+    <node id="员工卡信息">
+      <data key="d0">员工卡信息</data>
+      <data key="d1">category</data>
+      <data key="d2">A category that encompasses the data and records related to employee cards within the system.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="挂失">
+      <data key="d0">挂失</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where an employee reports their card as lost, rendering it invalid for future use.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="分配备用卡">
+      <data key="d0">分配备用卡</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where a spare card is assigned to an employee.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="员工登录信息维护">
+      <data key="d0">员工登录信息维护</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or process where an employee updates their login password.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="员工密码重置">
+      <data key="d0">员工密码重置</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where an employee's password is reset to a default value.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="POS管理">
+      <data key="d0">POS管理</data>
+      <data key="d1">category</data>
+      <data key="d2">A category that encompasses the management and configuration of point of sale (POS) systems.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="油枪分配">
+      <data key="d0">油枪分配</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where a fuel gun is assigned to a specific employee.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="Pos配置">
+      <data key="d0">Pos配置</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where the POS configuration file is generated.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="出库单查询">
+      <data key="d0">出库单查询</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where delivery notes are queried in the system.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="出库单查询下载">
+      <data key="d0">出库单查询下载</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where delivery notes are downloaded from a provincial center.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="出库单查询关联">
+      <data key="d0">出库单查询关联</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where delivery notes are associated with corresponding records after fuel receipt.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="出库单查询删除">
+      <data key="d0">出库单查询删除</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where a delivery note record is deleted from the system.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="无货单验收">
+      <data key="d0">无货单验收</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where fuel is received without a corresponding delivery note.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="进货验收">
+      <data key="d0">进货验收</data>
+      <data key="d1">event</data>
+      <data key="d2">An event or action where fuel is accepted and recorded in the system after verifying the delivery note and tank information.</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </node>
+    <node id="Liquid Level Instrument Application System">
+      <data key="d0">Liquid Level Instrument Application System</data>
+      <data key="d1">organization</data>
+      <data key="d2">A system designed for managing the unloading of oil from tankers into storage tanks, recording relevant data, and calculating volumes and losses.&lt;SEP&gt;A system used for managing the selection of delivery orders and tank information for unloading operations, recording data changes, and calculating unloading volumes and losses.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Delivery Order">
+      <data key="d0">Delivery Order</data>
+      <data key="d1">category</data>
+      <data key="d2">A document used to match with the current tank truck for unloading operations.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Tank">
+      <data key="d0">Tank</data>
+      <data key="d1">geo</data>
+      <data key="d2">A container where oil is unloaded, and its basic information is recorded before and after unloading.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Unloading Operation">
+      <data key="d0">Unloading Operation</data>
+      <data key="d1">event</data>
+      <data key="d2">The process of unloading oil from a tank truck into a tank, including start and end actions with real-time monitoring.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Unloading Record Table">
+      <data key="d0">Unloading Record Table</data>
+      <data key="d1">category</data>
+      <data key="d2">A table where the data regarding unloading operations, including volume and losses, is saved.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Manual Entry">
+      <data key="d0">Manual Entry</data>
+      <data key="d1">event</data>
+      <data key="d2">A method to record tank data manually by entering the front and back scale measurements before and after unloading.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Oil Dispenser">
+      <data key="d0">Oil Dispenser</data>
+      <data key="d1">equipment</data>
+      <data key="d2">The device used to stop the oil flow and stabilize the oil before and after unloading.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Inventory Acceptance">
+      <data key="d0">Inventory Acceptance</data>
+      <data key="d1">event</data>
+      <data key="d2">The process of accepting inventory after unloading, which can be queried and printed.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Inventory Acceptance Query">
+      <data key="d0">Inventory Acceptance Query</data>
+      <data key="d1">event</data>
+      <data key="d2">The function to search for inventory acceptance documents based on delivery order number and unloading date.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Inventory Acceptance Printing">
+      <data key="d0">Inventory Acceptance Printing</data>
+      <data key="d1">event</data>
+      <data key="d2">The process of viewing and printing a specific inventory acceptance document.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="Oil Transfer">
+      <data key="d0">Oil Transfer</data>
+      <data key="d1">event</data>
+      <data key="d2">The operation of moving oil between gas stations, within a station, or between a station and a virtual oil depot.</data>
+      <data key="d3">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </node>
+    <node id="加油站管理系统">
+      <data key="d0">加油站管理系统</data>
+      <data key="d1">organization</data>
+      <data key="d2">A system designed for managing the operations of a fuel station, including the tracking of fuel levels and movement of fuel between tanks.</data>
+      <data key="d3">chunk-ba19b144b49a0b70e3c0e1346aea91e8</data>
+    </node>
+    <node id="Probe Settings">
+      <data key="d0">Probe Settings</data>
+      <data key="d1">category</data>
+      <data key="d2">A category referring to the configuration options for probes used in monitoring systems.</data>
+      <data key="d3">chunk-3d2e7b47ca00e6d818054db921741cb0</data>
+    </node>
+    <node id="Static Liquid Level Report">
+      <data key="d0">Static Liquid Level Report</data>
+      <data key="d1">event</data>
+      <data key="d2">A report generated by the system that details the static liquid level measurements of oil tanks.&lt;SEP&gt;The report generated by the system that provides details on the static liquid level of oil tanks.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Time-Interval Selection">
+      <data key="d0">Time-Interval Selection</data>
+      <data key="d1">category</data>
+      <data key="d2">A feature of the system allowing users to select specific time intervals for data retrieval.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Tank Number Selection">
+      <data key="d0">Tank Number Selection</data>
+      <data key="d1">category</data>
+      <data key="d2">A feature of the system allowing users to select specific tanks for data retrieval.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Static Liquid Level Monitoring System">
+      <data key="d0">Static Liquid Level Monitoring System</data>
+      <data key="d1">organization</data>
+      <data key="d2">A system used for continuously monitoring and generating reports on the static liquid level of oil tanks.&lt;SEP&gt;The system used for monitoring the static liquid level of oil tanks, which includes features for data retrieval and reporting.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Time-Interval Selection Feature">
+      <data key="d0">Time-Interval Selection Feature</data>
+      <data key="d1">category</data>
+      <data key="d2">A feature of the Static Liquid Level Monitoring System that allows users to select specific time intervals for data retrieval.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Tank Number Selection Feature">
+      <data key="d0">Tank Number Selection Feature</data>
+      <data key="d1">category</data>
+      <data key="d2">A feature of the Static Liquid Level Monitoring System that allows users to select specific tanks for data retrieval.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Data Retrieval">
+      <data key="d0">Data Retrieval</data>
+      <data key="d1">event</data>
+      <data key="d2">The process of obtaining specific data from the Static Liquid Level Monitoring System based on user-selected criteria.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Detection Report">
+      <data key="d0">Detection Report</data>
+      <data key="d1">event</data>
+      <data key="d2">The report generated when static liquid level monitoring is ended, indicating the conclusion of the monitoring process.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="Inventory Data">
+      <data key="d0">Inventory Data</data>
+      <data key="d1">event</data>
+      <data key="d2">The data automatically recorded by the system every 10 minutes, detailing the inventory of each oil tank.</data>
+      <data key="d3">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </node>
+    <node id="交易成功">
+      <data key="d0">交易成功</data>
+      <data key="d3">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+      <data key="d2">A payment record is created upon a successful transaction.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="支付记录">
+      <data key="d0">支付记录</data>
+      <data key="d3">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+      <data key="d2">A payment record is created upon a successful transaction.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="加油收银">
+      <data key="d0">加油收银</data>
+      <data key="d3">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+      <data key="d2">Manual matching is used to resolve issues in the cash transaction process.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="手工匹配">
+      <data key="d0">手工匹配</data>
+      <data key="d3">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+      <data key="d2">Manual matching is used to resolve issues in the cash transaction process.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="找零">
+      <data key="d0">找零</data>
+      <data key="d3">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+      <data key="d2">Change is given to the customer after a successful cash transaction.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="交易管理">
+      <data key="d0">交易管理</data>
+      <data key="d3">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+      <data key="d2">Both transaction management and monitoring are part of the overall system management.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="监控管理">
+      <data key="d0">监控管理</data>
+      <data key="d3">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+      <data key="d2">Both transaction management and monitoring are part of the overall system management.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="信息添加成功">
+      <data key="d0">信息添加成功</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '保存' action results in successful information addition.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="放弃输入的信息">
+      <data key="d0">放弃输入的信息</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '取消' action leads to the discarding of the entered information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="保存修改的内容">
+      <data key="d0">保存修改的内容</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '修改' action is followed by saving the modifications made.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="信息删除">
+      <data key="d0">信息删除</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '删除' action results in the removal of the selected information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="展示符合条件的记录">
+      <data key="d0">展示符合条件的记录</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '查询' action displays records that match the search criteria.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="维护油机信息">
+      <data key="d0">维护油机信息</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '油机信息维护' function is used to maintain oil dispenser information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="维修油罐信息">
+      <data key="d0">维修油罐信息</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '油罐信息维护' function is used to maintain oil tank information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="维修油枪信息">
+      <data key="d0">维修油枪信息</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '油枪信息维护' function is used to maintain fuel nozzle information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="配置连接信息">
+      <data key="d0">配置连接信息</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '连接配置维护' function is used to configure and maintain connection information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="连接应用终端">
+      <data key="d0">连接应用终端</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '应用信息维护' function is used to maintain application information for terminal connections.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="维护pos机信息">
+      <data key="d0">维护pos机信息</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The 'pos机信息维护' function is used to maintain POS machine information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="设置摄像头信息">
+      <data key="d0">设置摄像头信息</data>
+      <data key="d3">chunk-8866537db756be9c1776ade7de1e4689</data>
+      <data key="d2">The '摄像头信息维护' function is used to set up camera information, limited to smart oil dispensers.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <node id="员工编号">
+      <data key="d0">员工编号</data>
+      <data key="d3">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+      <data key="d2">Employee ID is used to access and manage Employee Card Information.</data>
+      <data key="d1">UNKNOWN</data>
+    </node>
+    <edge source="中国石化加油卡系统" target="加油站">
+      <data key="d4">8.0</data>
+      <data key="d5">The fuel card system is utilized at the gas stations for managing refueling operations.</data>
+      <data key="d6">system deployment, station operations</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="中国石化加油卡系统" target="中国石化">
+      <data key="d4">9.0</data>
+      <data key="d5">The fuel card system is implemented by Sinopec to manage fuel card operations.</data>
+      <data key="d6">company-system relationship, operational management</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="中石化站级管理系统操作手册" target="加油站站长">
+      <data key="d4">7.0</data>
+      <data key="d5">The manual is intended for use by station managers to understand and operate the station-level system.</data>
+      <data key="d6">manual usage, operational guidance</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="加油员" target="加油卡">
+      <data key="d4">9.0</data>
+      <data key="d5">Fuel cards are used by attendants to process refueling transactions at the station.</data>
+      <data key="d6">transaction processing, fuel card use</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="加油站站长" target="交接班">
+      <data key="d4">8.0</data>
+      <data key="d5">Station managers are responsible for overseeing the shift change process, ensuring smooth transitions.</data>
+      <data key="d6">shift management, operational continuity</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="加油站站长" target="管控PC机">
+      <data key="d4">8.0</data>
+      <data key="d5">The station manager uses the control PC to manage fuel card transactions.</data>
+      <data key="d6">managerial control, transaction management</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="黑名单" target="加油机">
+      <data key="d4">16.0</data>
+      <data key="d5">Fuel pumps check the black list to prevent service to blocked cards.&lt;SEP&gt;The black list is checked by fuel pumps to deny service to blocked cards.</data>
+      <data key="d6">security measure, transaction validation&lt;SEP&gt;system security, transaction validation</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="灰名单" target="加油机">
+      <data key="d4">14.0</data>
+      <data key="d5">Fuel pumps use the grey list to manage cards with transaction issues that need resolution.&lt;SEP&gt;Fuel pumps use the grey list to manage cards with unresolved transaction issues.</data>
+      <data key="d6">transaction monitoring, card management&lt;SEP&gt;transaction monitoring, issue resolution</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="白名单" target="加油机">
+      <data key="d4">7.0</data>
+      <data key="d5">Fuel pumps reference the white list to validate staff cards for in-station use.</data>
+      <data key="d6">staff validation, in-station operations</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="加油卡" target="加油机">
+      <data key="d4">9.0</data>
+      <data key="d5">Fuel cards are used at fuel pumps for refueling transactions.</data>
+      <data key="d6">transaction medium, fueling process</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="加油卡" target="POS机">
+      <data key="d4">9.0</data>
+      <data key="d5">POS terminals process fuel card transactions for payment.</data>
+      <data key="d6">payment processing, card transaction</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="员工卡" target="员工卡分配">
+      <data key="d4">8.0</data>
+      <data key="d5">Employee cards are distributed to staff members through the card allocation process.</data>
+      <data key="d6">card distribution, staff access</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="交接班" target="加油站员工">
+      <data key="d4">8.0</data>
+      <data key="d5">加油站员工在交接班时进行加油流水的复核。</data>
+      <data key="d6">工作交接, 流水复核</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="交接班" target="交易流水查询">
+      <data key="d4">14.0</data>
+      <data key="d5">Transaction Record Query is a part of the Shift Handover process.&lt;SEP&gt;交易流水查询是交接班流程中的一部分，用于查询历史交易记录.</data>
+      <data key="d6">process step, shift transition&lt;SEP&gt;process step, transaction review</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="交接班" target="班结">
+      <data key="d4">14.0</data>
+      <data key="d5">Shift Conclusion is a key step in the Shift Handover process.&lt;SEP&gt;班结是交接班流程中的一个环节，用于总结和确认班次交易.</data>
+      <data key="d6">process step, shift end&lt;SEP&gt;process step, transaction summary</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="交接班" target="班次维护">
+      <data key="d4">14.0</data>
+      <data key="d5">Shift Maintenance is part of the Shift Handover process to keep shift information up-to-date.&lt;SEP&gt;班次维护是交接班流程的一部分，用于确保班次信息的准确性.</data>
+      <data key="d6">process step, schedule maintenance&lt;SEP&gt;process step, schedule management</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="管控PC机" target="省中心">
+      <data key="d4">7.0</data>
+      <data key="d5">The provincial center coordinates with the control PC for processing fuel card data.</data>
+      <data key="d6">data coordination, central management</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="省中心" target="全国总中心">
+      <data key="d4">8.0</data>
+      <data key="d5">The national center oversees the activities of the provincial centers in managing fuel card operations.</data>
+      <data key="d6">oversight, hierarchical management</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="油枪" target="加油站员工">
+      <data key="d4">7.0</data>
+      <data key="d5">加油站员工使用油枪为顾客加油，并记录相关的泵码数。</data>
+      <data key="d6">加油操作, 数据记录</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="油枪" target="油枪位置信息维护">
+      <data key="d4">8.0</data>
+      <data key="d5">Fuel Nozzles are maintained through Gun Position Information Maintenance for proper alignment and operation.</data>
+      <data key="d6">maintenance activity, operational alignment</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="油罐" target="液位仪">
+      <data key="d4">8.0</data>
+      <data key="d5">The level meter is used to monitor fuel levels in the storage tanks.</data>
+      <data key="d6">fuel monitoring, tank management</data>
+      <data key="d7">chunk-c0a4038694d9770e737cad9ad5a08c36</data>
+    </edge>
+    <edge source="油罐" target="加油单元">
+      <data key="d4">7.0</data>
+      <data key="d5">加油单元负责监控油罐中的燃油量，以确保供应充足。</data>
+      <data key="d6">库存管理, 供应链</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="油罐" target="初始化维护">
+      <data key="d4">7.0</data>
+      <data key="d5">Oil Tanks are part of the Initialization Maintenance process to ensure accurate fuel level readings.</data>
+      <data key="d6">maintenance procedure, fuel storage</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="液位仪" target="油罐交接录入界面">
+      <data key="d4">14.0</data>
+      <data key="d5">The oil tank handover entry interface utilizes a level gauge to automatically obtain oil level data.&lt;SEP&gt;在油罐交接录入界面中，可以使用液位仪自动获取油罐中的油高数据.</data>
+      <data key="d6">自动化测量, data entry&lt;SEP&gt;自动化测量, 数据录入</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="加油单元" target="差异数">
+      <data key="d4">7.0</data>
+      <data key="d5">加油单元通过计算差异数来检查流水是否缺失。</data>
+      <data key="d6">数据核对, 流水管理</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="加油单元" target="加油流水">
+      <data key="d4">8.0</data>
+      <data key="d5">加油单元通过维护加油流水序号来确保交易的完整性。</data>
+      <data key="d6">交易完整性, 流水管理</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="加油站员工" target="日结">
+      <data key="d4">7.0</data>
+      <data key="d5">加油站员工执行日结流程，对班次信息进行汇总。</data>
+      <data key="d6">数据汇总, 日结流程</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="日结" target="加油流水">
+      <data key="d4">8.0</data>
+      <data key="d5">日结过程中会汇总加油流水信息，生成日报表。</data>
+      <data key="d6">数据汇总, 日结流程</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="日结" target="付油日报">
+      <data key="d4">9.0</data>
+      <data key="d5">The fuel payment report is generated as part of the daily settlement process.</data>
+      <data key="d6">report generation, daily settlement</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="日结" target="销售日报">
+      <data key="d4">9.0</data>
+      <data key="d5">The sales report is generated as part of the daily settlement process.</data>
+      <data key="d6">report generation, daily settlement</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="日结" target="用户卡销售统计">
+      <data key="d4">8.0</data>
+      <data key="d5">The user card sales statistics are gathered and reported during the daily settlement process.</data>
+      <data key="d6">sales statistics, daily settlement</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="日结" target="销售日报副表">
+      <data key="d4">8.0</data>
+      <data key="d5">The supplementary sales report is generated as part of the daily settlement process.</data>
+      <data key="d6">report generation, daily settlement</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="第三方支付" target="扫码支付">
+      <data key="d4">6.0</data>
+      <data key="d5">第三方支付是扫码支付的一种方式，方便顾客进行交易。</data>
+      <data key="d6">支付方式, 交易便利</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="泵码" target="差异数">
+      <data key="d4">8.0</data>
+      <data key="d5">泵码用于计算差异数，以核对加油交易升数。</data>
+      <data key="d6">数据核对, 加油量管理</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="泵码" target="初始化维护">
+      <data key="d4">7.0</data>
+      <data key="d5">Pump Codes are initialized during Initialization Maintenance to set the starting point for fuel dispensing operations.</data>
+      <data key="d6">maintenance procedure, operational start</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="系统登录" target="数据通信">
+      <data key="d4">7.0</data>
+      <data key="d5">员工登录系统后进行数据通信操作，以确保数据同步。</data>
+      <data key="d6">系统操作, 数据同步</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="系统登录" target="系统管理员">
+      <data key="d4">7.0</data>
+      <data key="d5">系统管理员通过系统登录来执行管理任务和操作。</data>
+      <data key="d6">系统管理, 登录流程</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="系统登录" target="初始化管理员">
+      <data key="d4">8.0</data>
+      <data key="d5">初始化管理员在首次登录时设置新的登录密码。</data>
+      <data key="d6">系统初始化, 密码设置</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="监控收银" target="扫码支付">
+      <data key="d4">8.0</data>
+      <data key="d5">监控收银过程中，员工处理顾客的扫码支付交易。</data>
+      <data key="d6">支付监控, 交易处理</data>
+      <data key="d7">chunk-132815f103f96ba0f2ebea2d939783c5</data>
+    </edge>
+    <edge source="Oil Products" target="Oil Station System">
+      <data key="d4">6.0</data>
+      <data key="d5">The oil station system is used to manage information about oil products.</data>
+      <data key="d6">product management, system usage</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="Oil Products" target="常用油品设置">
+      <data key="d4">8.0</data>
+      <data key="d5">Frequently used oil products are set based on the station's usage of oil products.</data>
+      <data key="d6">product usage, setup frequency</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="Oil Products" target="油品调节">
+      <data key="d4">8.0</data>
+      <data key="d5">Oil product adjustment involves changing the information of oil products in the tanks.</data>
+      <data key="d6">product information, adjustment process</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="System Operations" target="Oil Station System">
+      <data key="d4">7.0</data>
+      <data key="d5">The oil station system facilitates the execution of various system operations.</data>
+      <data key="d6">system functionality, operational support</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="Equipment" target="Oil Station System">
+      <data key="d4">5.0</data>
+      <data key="d5">The oil station system includes functionality for maintaining equipment information.</data>
+      <data key="d6">equipment maintenance, system feature</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="Oil Station System" target="灰名单查询">
+      <data key="d4">8.0</data>
+      <data key="d5">The oil station system includes the function to perform gray list queries.</data>
+      <data key="d6">system feature, query function</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="Oil Station System" target="黑名单查询">
+      <data key="d4">8.0</data>
+      <data key="d5">The oil station system includes the function to perform black list queries.</data>
+      <data key="d6">system feature, query function</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="Oil Station System" target="业务管理">
+      <data key="d4">9.0</data>
+      <data key="d5">The oil station system encompasses business management functionalities.</data>
+      <data key="d6">system feature, management function</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="业务管理" target="交易管理">
+      <data key="d4">8.0</data>
+      <data key="d5">Transaction management is a component of the overall business management of the fuel station.</data>
+      <data key="d6">business operations, transaction handling</data>
+      <data key="d7">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+    </edge>
+    <edge source="业务管理" target="监控管理">
+      <data key="d4">8.0</data>
+      <data key="d5">Monitoring management is a component of the overall business management of the fuel station.</data>
+      <data key="d6">business operations, system monitoring</data>
+      <data key="d7">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+    </edge>
+    <edge source="业务管理" target="常用油品设置">
+      <data key="d4">7.0</data>
+      <data key="d5">Business management includes the setup of frequently used oil products.</data>
+      <data key="d6">management task, product setup</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="业务管理" target="油品调节">
+      <data key="d4">7.0</data>
+      <data key="d5">Business management involves the process of oil product adjustment.</data>
+      <data key="d6">management task, product adjustment</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="设备管理" target="设备信息维护">
+      <data key="d4">7.0</data>
+      <data key="d5">Equipment management involves the maintenance of equipment information within the system.</data>
+      <data key="d6">management task, equipment maintenance</data>
+      <data key="d7">chunk-e4ccbb5121bf5d90dedb16c59921ce24</data>
+    </edge>
+    <edge source="保存" target="信息添加成功">
+      <data key="d4">8.0</data>
+      <data key="d5">The '保存' action results in successful information addition.</data>
+      <data key="d6">data entry, system confirmation</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="取消" target="放弃输入的信息">
+      <data key="d4">7.0</data>
+      <data key="d5">The '取消' action leads to the discarding of the entered information.</data>
+      <data key="d6">data entry, reversal</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="修改" target="保存修改的内容">
+      <data key="d4">8.0</data>
+      <data key="d5">The '修改' action is followed by saving the modifications made.</data>
+      <data key="d6">data editing, content update</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="删除" target="信息删除">
+      <data key="d4">8.0</data>
+      <data key="d5">The '删除' action results in the removal of the selected information.</data>
+      <data key="d6">data removal, system cleanup</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="查询" target="展示符合条件的记录">
+      <data key="d4">7.0</data>
+      <data key="d5">The '查询' action displays records that match the search criteria.</data>
+      <data key="d6">data retrieval, search function</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="油机信息维护" target="维护油机信息">
+      <data key="d4">9.0</data>
+      <data key="d5">The '油机信息维护' function is used to maintain oil dispenser information.</data>
+      <data key="d6">equipment maintenance, system update</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="油罐信息维护" target="维修油罐信息">
+      <data key="d4">9.0</data>
+      <data key="d5">The '油罐信息维护' function is used to maintain oil tank information.</data>
+      <data key="d6">equipment maintenance, system update</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="油枪信息维护" target="维修油枪信息">
+      <data key="d4">9.0</data>
+      <data key="d5">The '油枪信息维护' function is used to maintain fuel nozzle information.</data>
+      <data key="d6">equipment maintenance, system update</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="连接配置维护" target="配置连接信息">
+      <data key="d4">8.0</data>
+      <data key="d5">The '连接配置维护' function is used to configure and maintain connection information.</data>
+      <data key="d6">system configuration, connectivity</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="应用信息维护" target="连接应用终端">
+      <data key="d4">7.0</data>
+      <data key="d5">The '应用信息维护' function is used to maintain application information for terminal connections.</data>
+      <data key="d6">system connectivity, application integration</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="pos机信息维护" target="维护pos机信息">
+      <data key="d4">8.0</data>
+      <data key="d5">The 'pos机信息维护' function is used to maintain POS machine information.</data>
+      <data key="d6">equipment maintenance, system update</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="摄像头信息维护" target="设置摄像头信息">
+      <data key="d4">7.0</data>
+      <data key="d5">The '摄像头信息维护' function is used to set up camera information, limited to smart oil dispensers.</data>
+      <data key="d6">equipment setup, system limitation</data>
+      <data key="d7">chunk-8866537db756be9c1776ade7de1e4689</data>
+    </edge>
+    <edge source="摄像头信息维护" target="智能油机">
+      <data key="d4">17.0</data>
+      <data key="d5">Smart Oil Machines require Camera Information Maintenance to ensure proper security and monitoring.&lt;SEP&gt;摄像头信息维护是智能油机的一个特定功能，用于维护摄像头信息.</data>
+      <data key="d6">functionality, device feature&lt;SEP&gt;maintenance requirement, security feature</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="摄像头信息维护" target="摄像头">
+      <data key="d4">8.0</data>
+      <data key="d5">Cameras are maintained through Camera Information Maintenance to ensure they function correctly.</data>
+      <data key="d6">maintenance activity, security device</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="智能油机" target="油枪位置信息维护">
+      <data key="d4">17.0</data>
+      <data key="d5">Smart Oil Machines need Gun Position Information Maintenance for accurate fuel dispensing.&lt;SEP&gt;油枪位置信息维护是智能油机的一个特定功能，用于维护油枪位置.</data>
+      <data key="d6">functionality, device feature&lt;SEP&gt;maintenance requirement, operational accuracy</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="智能油机" target="终端配置">
+      <data key="d4">15.0</data>
+      <data key="d5">Terminal Configuration is essential for the operation of Smart Oil Machines.&lt;SEP&gt;终端配置涉及智能油机的终端信息维护，包括认证方式的修改.</data>
+      <data key="d6">configuration, device setting&lt;SEP&gt;configuration, machine operation</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="智能油机" target="初始化维护">
+      <data key="d4">9.0</data>
+      <data key="d5">初始化维护是在智能油机更换主板后进行的，确保设备正常运行.</data>
+      <data key="d6">maintenance, device update</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="初始化维护" target="油机">
+      <data key="d4">8.0</data>
+      <data key="d5">Initialization Maintenance is necessary for Fuel Dispensers after hardware changes like motherboard replacement.</data>
+      <data key="d6">maintenance procedure, hardware update</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="初始化维护" target="主板">
+      <data key="d4">8.0</data>
+      <data key="d5">Motherboards require Initialization Maintenance after being replaced to reset the system.</data>
+      <data key="d6">maintenance procedure, system reset</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="交易流水查询" target="交易流水错误更正">
+      <data key="d4">12.0</data>
+      <data key="d5">Transaction Record Error Correction follows the Transaction Record Query to ensure data accuracy.&lt;SEP&gt;交易流水错误更正是交易流水查询后可能需要进行的错误修正操作.</data>
+      <data key="d6">error correction, data integrity&lt;SEP&gt;error handling, data integrity</data>
+      <data key="d7">chunk-8aa22e7a75411e1b54d06920080908d9</data>
+    </edge>
+    <edge source="班结" target="交易流水明细列表">
+      <data key="d4">18.0</data>
+      <data key="d5">The shift summary event involves the system核对ing handover report data with transaction flow data from the transaction detail list.&lt;SEP&gt;班结事件中，系统会自动核对交接班报表数据与交易流水数据.</data>
+      <data key="d6">data comparison, shift summary&lt;SEP&gt;数据核对, 报表生成</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="班结" target="校验日志查询">
+      <data key="d4">9.0</data>
+      <data key="d5">The shift summary event automatically checks the consistency between handover report data and transaction flow data, which can be validated through the validation log query.</data>
+      <data key="d6">data consistency, report validation</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="查询对话框" target="班次明细记录">
+      <data key="d4">14.0</data>
+      <data key="d5">The query dialog box is used to retrieve shift detail records by entering specific conditions.&lt;SEP&gt;通过查询对话框输入条件，可以查询到班次明细记录.</data>
+      <data key="d6">data retrieval, shift details&lt;SEP&gt;查询操作, 数据检索</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="查询对话框" target="泵码交接">
+      <data key="d4">16.0</data>
+      <data key="d5">The pump code handover event requires the use of a query dialog box to input conditions for querying handover records.&lt;SEP&gt;在泵码交接过程中，需要通过查询对话框输入条件以查询交接记录.</data>
+      <data key="d6">event management, record lookup&lt;SEP&gt;信息输入, 记录查询</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="班次明细记录" target="复核操作">
+      <data key="d4">12.0</data>
+      <data key="d5">The review operation is performed on shift detail records to confirm their accuracy.&lt;SEP&gt;复核操作用于核对并确认班次明细记录.</data>
+      <data key="d6">data verification, shift confirmation&lt;SEP&gt;数据核对, 复核流程</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="交易流水明细列表" target="支付类型更正">
+      <data key="d4">8.0</data>
+      <data key="d5">支付类型更正事件中，需要查询交易流水明细列表以进行支付类型的更正.</data>
+      <data key="d6">数据更正, 交易调整</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="支付类型更正" target="员工卡交易流水">
+      <data key="d4">8.0</data>
+      <data key="d5">The payment type correction event involves querying and correcting the transaction flow of employee cards.</data>
+      <data key="d6">transaction adjustment, payment correction</data>
+      <data key="d7">chunk-00076af4405b55d283842f061755d79b</data>
+    </edge>
+    <edge source="Cash Payment" target="Total Fuel Summary">
+      <data key="d4">16.0</data>
+      <data key="d5">Cash payments are part of the total fuel transaction summary.&lt;SEP&gt;Cash payments contribute to the total fuel transaction summary.</data>
+      <data key="d6">payment method, transaction aggregation&lt;SEP&gt;payment method, transaction summary</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Fuel Ticket Payment" target="Total Fuel Summary">
+      <data key="d4">16.0</data>
+      <data key="d5">Fuel ticket payments are part of the total fuel transaction summary.&lt;SEP&gt;Fuel ticket payments contribute to the total fuel transaction summary.</data>
+      <data key="d6">payment method, transaction aggregation&lt;SEP&gt;payment method, transaction summary</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Account Payment" target="Total Fuel Summary">
+      <data key="d4">16.0</data>
+      <data key="d5">Account payments are part of the total fuel transaction summary.&lt;SEP&gt;Account payments contribute to the total fuel transaction summary.</data>
+      <data key="d6">payment method, transaction aggregation&lt;SEP&gt;payment method, transaction summary</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="IC Card Payment" target="Total Fuel Summary">
+      <data key="d4">16.0</data>
+      <data key="d5">IC card payments are part of the total fuel transaction summary.&lt;SEP&gt;IC card payments contribute to the total fuel transaction summary.</data>
+      <data key="d6">payment method, transaction aggregation&lt;SEP&gt;payment method, transaction summary</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="IC Card Points Payment" target="Total Fuel Summary">
+      <data key="d4">16.0</data>
+      <data key="d5">IC card points payments are part of the total fuel transaction summary.&lt;SEP&gt;IC card points payments contribute to the total fuel transaction summary.</data>
+      <data key="d6">payment method, transaction aggregation&lt;SEP&gt;payment method, transaction summary</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="System Validation" target="Shift Handover">
+      <data key="d4">18.0</data>
+      <data key="d5">System validation is a critical step in the shift handover process to ensure accuracy.&lt;SEP&gt;System validation is a key component of the shift handover process.</data>
+      <data key="d6">process integrity, shift transition&lt;SEP&gt;process validation, shift change</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="System Validation" target="Business Management Module">
+      <data key="d4">16.0</data>
+      <data key="d5">The business management module contains the system validation function.&lt;SEP&gt;The business management module facilitates system validation.</data>
+      <data key="d6">module function, validation process&lt;SEP&gt;module functionality, system validation</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Fuel Tank Handover" target="Shift Handover">
+      <data key="d4">14.0</data>
+      <data key="d5">Fuel tank handover is a component of the shift handover process.&lt;SEP&gt;Fuel tank handover is part of the overall shift handover event.</data>
+      <data key="d6">responsibility transfer, shift change&lt;SEP&gt;shift change, responsibility transfer</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Shift Handover" target="One-Click Shift 结束">
+      <data key="d4">14.0</data>
+      <data key="d5">The one-click shift end feature facilitates the shift handover process.&lt;SEP&gt;The one-click shift end feature streamlines the shift handover process.</data>
+      <data key="d6">automation, shift change&lt;SEP&gt;automation, shift transition</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Shift Handover" target="Shift Handover Report">
+      <data key="d4">16.0</data>
+      <data key="d5">The shift handover report documents the details of the shift handover process.</data>
+      <data key="d6">reporting, shift change documentation</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Shift Handover" target="Real-Time Employee Business Query">
+      <data key="d4">14.0</data>
+      <data key="d5">Real-time employee business queries provide up-to-date information for shift handover.&lt;SEP&gt;Real-time employee business queries support the shift handover process.</data>
+      <data key="d6">employee monitoring, shift change&lt;SEP&gt;employee monitoring, shift transition</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Shift Handover" target="Daily Settlement">
+      <data key="d4">16.0</data>
+      <data key="d5">Daily settlement finalizes the financial transactions of the shift.&lt;SEP&gt;Daily settlement is a final step in the shift handover process.</data>
+      <data key="d6">financial closure, end of shift&lt;SEP&gt;financial settlement, end of shift</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Daily Settlement" target="Daily Settlement Query">
+      <data key="d4">14.0</data>
+      <data key="d5">The daily settlement query allows for reviewing settled transactions after the shift handover.&lt;SEP&gt;The daily settlement query reviews settled transactions after the shift handover.</data>
+      <data key="d6">transaction review, post-shift analysis</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Fuel Pump" target="Fuel Dispenser">
+      <data key="d4">8.0</data>
+      <data key="d5">Fuel pumps are part of the fuel dispenser system used to dispense fuel.</data>
+      <data key="d6">equipment function, fuel dispensing</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Oil Tank" target="Static Liquid Level Report">
+      <data key="d4">8.0</data>
+      <data key="d5">The Static Liquid Level Report provides information about the oil tanks monitored by the system.</data>
+      <data key="d6">tank monitoring, report content</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Fuel Station" target="Fuel Dispenser">
+      <data key="d4">8.0</data>
+      <data key="d5">Fuel dispensers are located at the fuel station for customer use.</data>
+      <data key="d6">station equipment, fuel distribution</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="Fuel Station" target="Payment Terminal">
+      <data key="d4">8.0</data>
+      <data key="d5">Payment terminals at the fuel station process transactions made by customers.</data>
+      <data key="d6">transaction processing, station facility</data>
+      <data key="d7">chunk-713414f3170b595ff9b4f63ebe2c1ae9</data>
+    </edge>
+    <edge source="加油信息" target="付油日报">
+      <data key="d4">7.0</data>
+      <data key="d5">加油信息包括付油日报，是加油站业务操作的一部分.</data>
+      <data key="d6">business operation, fuel payment</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="加油信息" target="销售日报">
+      <data key="d4">7.0</data>
+      <data key="d5">加油信息包括销售日报，体现了加油站的营业情况.</data>
+      <data key="d6">business operation, sales report</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="员工管理" target="员工信息维护">
+      <data key="d4">17.0</data>
+      <data key="d5">Employee information maintenance is a key component of the staff management system.&lt;SEP&gt;员工管理包括员工信息维护，确保员工信息准确无误.</data>
+      <data key="d6">staff management, information accuracy&lt;SEP&gt;staff management, information maintenance</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="员工管理" target="员工角色维护">
+      <data key="d4">17.0</data>
+      <data key="d5">Role maintenance is part of the staff management system, defining permissions for different roles.&lt;SEP&gt;员工管理包括员工角色维护，用以分配和调整员工权限.</data>
+      <data key="d6">staff management, role permissions&lt;SEP&gt;staff management, role-based permissions</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="员工管理" target="员工卡分配">
+      <data key="d4">17.0</data>
+      <data key="d5">Card distribution is a process within staff management, ensuring employees have access to necessary cards.&lt;SEP&gt;员工管理包括员工卡分配，保证员工能正常使用加油机.</data>
+      <data key="d6">staff management, access control&lt;SEP&gt;staff management, card distribution</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="员工角色维护" target="角色">
+      <data key="d4">9.0</data>
+      <data key="d5">Roles are defined and managed within the role maintenance function of the staff management system.</data>
+      <data key="d6">role management, staff permissions</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="系统" target="报表">
+      <data key="d4">9.0</data>
+      <data key="d5">The system is used to generate various reports that track the gas station's operations.</data>
+      <data key="d6">system functionality, report generation</data>
+      <data key="d7">chunk-1935065b97cc4d0b6b7b6668298a18ae</data>
+    </edge>
+    <edge source="员工卡信息" target="员工编号">
+      <data key="d4">9.0</data>
+      <data key="d5">Employee ID is used to access and manage Employee Card Information.</data>
+      <data key="d6">employee identification, card management</data>
+      <data key="d7">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </edge>
+    <edge source="挂失" target="员工编号">
+      <data key="d4">8.0</data>
+      <data key="d5">Employee ID is used when an employee reports a card as lost.</data>
+      <data key="d6">loss reporting, employee ID</data>
+      <data key="d7">chunk-d045fbb403c29dc1701fa9dabc9bcfe7</data>
+    </edge>
+    <edge source="Liquid Level Instrument Application System" target="Delivery Order">
+      <data key="d4">8.0</data>
+      <data key="d5">The system is used to select and match delivery orders with the current tank truck for unloading.</data>
+      <data key="d6">system operation, delivery management</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Delivery Order" target="Inventory Acceptance">
+      <data key="d4">7.0</data>
+      <data key="d5">Inventory Acceptance is based on the delivery order information after the unloading is completed.</data>
+      <data key="d6">post-unloading process, inventory management</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Tank" target="Unloading Operation">
+      <data key="d4">7.0</data>
+      <data key="d5">The unloading operation involves the use of tanks to store the unloaded oil.</data>
+      <data key="d6">unloading process, tank usage</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Tank" target="Oil Transfer">
+      <data key="d4">7.0</data>
+      <data key="d5">Oil Transfer involves moving oil between tanks and is recorded with the tank information.</data>
+      <data key="d6">oil movement, tank operation</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Unloading Operation" target="Unloading Record Table">
+      <data key="d4">9.0</data>
+      <data key="d5">Data from the unloading operation is recorded in the Unloading Record Table.</data>
+      <data key="d6">data recording, unloading operation</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Unloading Operation" target="Manual Entry">
+      <data key="d4">6.0</data>
+      <data key="d5">Manual Entry is an alternative method to record the unloading data when the system is not used.</data>
+      <data key="d6">data entry method, unloading process</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Inventory Acceptance" target="Inventory Acceptance Query">
+      <data key="d4">8.0</data>
+      <data key="d5">The Inventory Acceptance Query function is used to search for and view details of the acceptance documents.</data>
+      <data key="d6">document search, inventory acceptance</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Inventory Acceptance" target="Inventory Acceptance Printing">
+      <data key="d4">5.0</data>
+      <data key="d5">Inventory Acceptance Printing allows for the viewing and printing of specific documents.</data>
+      <data key="d6">document printing, inventory record</data>
+      <data key="d7">chunk-4950a36dc91d7ac0f6771724dff6fb51</data>
+    </edge>
+    <edge source="Static Liquid Level Report" target="Static Liquid Level Monitoring System">
+      <data key="d4">9.0</data>
+      <data key="d5">The Static Liquid Level Monitoring System generates Static Liquid Level Reports as part of its functionality.</data>
+      <data key="d6">report generation, system output</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Static Liquid Level Monitoring System" target="Tank Number Selection Feature">
+      <data key="d4">8.0</data>
+      <data key="d5">The Tank Number Selection Feature is integrated within the Static Liquid Level Monitoring System to allow for specific tank data retrieval.</data>
+      <data key="d6">system functionality, tank selection</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Static Liquid Level Monitoring System" target="Time-Interval Selection Feature">
+      <data key="d4">8.0</data>
+      <data key="d5">The Time-Interval Selection Feature is integrated within the Static Liquid Level Monitoring System to allow for data retrieval over specific time intervals.</data>
+      <data key="d6">system functionality, time selection</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Static Liquid Level Monitoring System" target="Data Retrieval">
+      <data key="d4">7.0</data>
+      <data key="d5">Data Retrieval is a process facilitated by the Static Liquid Level Monitoring System.</data>
+      <data key="d6">data access, system process</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Static Liquid Level Monitoring System" target="Detection Report">
+      <data key="d4">6.0</data>
+      <data key="d5">The Static Liquid Level Monitoring System concludes monitoring with a Detection Report.</data>
+      <data key="d6">monitoring conclusion, report type</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Static Liquid Level Monitoring System" target="Inventory Data">
+      <data key="d4">8.0</data>
+      <data key="d5">The Static Liquid Level Monitoring System records Inventory Data every 10 minutes.</data>
+      <data key="d6">inventory tracking, system recording</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Time-Interval Selection Feature" target="Data Retrieval">
+      <data key="d4">7.0</data>
+      <data key="d5">The Time-Interval Selection Feature is used to specify the time range of data to be retrieved during Data Retrieval.</data>
+      <data key="d6">time criteria, data range</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="Tank Number Selection Feature" target="Data Retrieval">
+      <data key="d4">7.0</data>
+      <data key="d5">The Tank Number Selection Feature is used to specify which tanks' data will be retrieved during Data Retrieval.</data>
+      <data key="d6">selection criteria, data targeting</data>
+      <data key="d7">chunk-8f4b9a0279bf70894ee84b66a981344c</data>
+    </edge>
+    <edge source="交易成功" target="支付记录">
+      <data key="d4">9.0</data>
+      <data key="d5">A payment record is created upon a successful transaction.</data>
+      <data key="d6">transaction completion, record creation</data>
+      <data key="d7">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+    </edge>
+    <edge source="加油收银" target="手工匹配">
+      <data key="d4">7.0</data>
+      <data key="d5">Manual matching is used to resolve issues in the cash transaction process.</data>
+      <data key="d6">cash handling, transaction resolution</data>
+      <data key="d7">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+    </edge>
+    <edge source="加油收银" target="找零">
+      <data key="d4">7.0</data>
+      <data key="d5">Change is given to the customer after a successful cash transaction.</data>
+      <data key="d6">cash transaction, change handling</data>
+      <data key="d7">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+    </edge>
+    <edge source="交易管理" target="监控管理">
+      <data key="d4">8.0</data>
+      <data key="d5">Both transaction management and monitoring are part of the overall system management.</data>
+      <data key="d6">system management, operational oversight</data>
+      <data key="d7">chunk-a3502a724d3d418b395bf0dd5771a377</data>
+    </edge>
+  </graph>
+</graphml>

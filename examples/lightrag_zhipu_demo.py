@@ -8,7 +8,7 @@ from lightrag.llm.zhipu import zhipu_complete, zhipu_embedding
 from lightrag.utils import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
 
-WORKING_DIR = "./dickens"
+WORKING_DIR = "./ragtest"
 
 logging.basicConfig(format="%(levelname)s:%(message)s", level=logging.INFO)
 
@@ -24,7 +24,7 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=zhipu_complete,
-        llm_model_name="glm-4-flashx",  # Using the most cost/performance balance model, but you can change it here.
+        llm_model_name="glm-4-air",  # Using the most cost/performance balance model, but you can change it here.
         llm_model_max_async=4,
         llm_model_max_token_size=32768,
         embedding_func=EmbeddingFunc(
@@ -44,7 +44,7 @@ def main():
     # Initialize RAG instance
     rag = asyncio.run(initialize_rag())
 
-    with open("./book.txt", "r", encoding="utf-8") as f:
+    with open("./input/book.txt", "r", encoding="utf-8") as f:
         rag.insert(f.read())
 
     # Perform naive search

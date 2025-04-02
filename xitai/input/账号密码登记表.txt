@@ -1,0 +1,291 @@
+办公
+0 | 堡垒机服务器列表 | * | * | * | * | * | * | * | * | 
+1 | 序号 | 板块 | 名称（环境-业务-用途-IP） | 地址 | 服务器 | 账号 | 旧密码 | 现密码 | 备注 | 
+2 | 2.0 | OA | PROD-MAIL-SRV-192.168.66.7 | 192.168.66.7 |  MAIL-SRV-10.2.8.127 | root | nk*8Dx8mQda | nk*8Dx8mQda | sidtek / ST*2024 | 
+3 | 3.0 | * | PROD-NEWOA-DB-192.168.66.141 | 192.168.66.141 |  NEWOA-DB-10.2.8.124 | root | 38ogjzIlw@H | 38ogjzIlw@H | * | 
+4 | 4.0 | * | http://xm.sidtek.cn:8088 | * | http://xm.sidtek.cn:8088 | system@sidtek.cn | sidtek@2023. | Sidtek@@2023. | 祝庆坤同步、李遥打印机需要密码 | 
+5 | 5.0 | * | PROD-OA-SRV-192.168.66.4 | 192.168.66.4 |  OA-SRV-10.2.8.134 | administrator | epocH.2021.04!! | epocH.2021.04!!@ | * | 
+6 | 6.0 | * | PROD-NEWOA-WEB-192.168.66.140 | http://ec.sidtek.cn:8181/ |  NEWOA-WEB-10.2.8.125 | sysadmin | Weaver@2001 | 田其兵自行管理 | 系统需要密码 | 
+7 | 7.0 | * | PROD-NEWOA-APP-192.168.66.140 | 192.168.66.140 |  NEWOA-APP-10.2.8.125 | root | agOzu!7K7db | agOzu!7K7db | * | 
+8 | 8.0 | * | PROD-NEWOA-HR-192.168.66.21 | 192.168.66.21 |  NEWOA-HR-10.2.8.133 | administrator | epocH.2021.21@@ | epocH.2024.21@@ | * | 
+9 | 9.0 | * | PROD-NEWOA-EM-192.168.66.142 | 192.168.66.142 |  NEWOA-EM-10.2.8.123 | root | R5dl0Cohk+j | R5dl0Cohk+j | * | 
+10 | 10.0 | * | PROD-NEWOA-INDEX-192.168.66.145 | 192.168.66.145 |  NEWOA-INDEX-10.2.8.126 | root | k^Szams3M0x | k^Szams3M0x | * | 
+11 | 11.0 | SAP | PROD-ERP-SRV-192.168.66.5 | 192.168.66.5 |  ERP-SRV-10.2.8.136 | sidtek\administrator | epocH.2021.10, | 域管理员账号 | * | 
+12 | 12.0 | * | PROD-U8-SRV-192.168.66.28 | 192.168.66.28 |  U8-SRV-10.2.8.135 | administrator ERP-XT\administrator | epocH.2021.10, epocH.2024.10, | epocH.2024.10, | * | 
+13 | 13.0 | * | DEV-SAP-APP-192.168.66.241 | * | DEV-SAP-APP-10.2.8.1 | root | dkq_nKbj48N | dkq_nKbj48N | * | 
+14 | 14.0 | * | PROD-SAP-APP-192.168.66.184 | * |  SAP-APP-10.2.8.121 | root | m0bimq@Ff4J | m0bimq@Ff4J | * | 
+15 | 15.0 | * | PROD-SAP-DB1-192.168.66.181 | * |  SAP-DB1-10.1.5.171 | administrator | *4Ll4Qdblgt | DB-10.1.5.171 | * | 
+16 | 16.0 | * | PROD-SAP-DB2-192.168.66.182 | * |  SAP-DB2-10.1.5.172 | administrator | X2_lqXwas4s | db-10.1.5.172 | * | 
+17 | 17.0 | * | TEST/DEV-SAP-DB-192.168.66.243 | * | TEST/DEV-SAP-DB-10.2.8.2 | root | Aa123456 | FKn52y~fcfp | * | 
+18 | 18.0 | 安全 | PROD-DLP-WEB-192.168.66.8:8080 | http://192.168.66.8:8080/ |  DLP-WEB-10.2.8.208:8080 | admin/mabinbin | Ahxt123!@# | * | * | 
+19 | 19.0 | * | PROD-FILREWALL-WEB-192.168.99.253 | http://192.168.99.253/ |  FILREWALL-WEB-192.168.99.253 | hillstone | epocH.2021.xt4 | * | * | 
+20 | 20.0 | * | PROD-ENC-WEB-192.168.66.6:85 | http://192.168.66.6:85/ |  ENC-WEB-10.2.8.206:85 | admin/mabinbin | JSD)K|16/Ahxt123!@# | * | * | 
+21 | 21.0 | * | PROD-AIS-APP-192.168.66.201 | 192.168.66.201 |  AIS-APP-10.2.8.201 | administrator | _a2eqMeoE4u | app-10.2.8.201 | * | 
+22 | 22.0 | * | PROD-DLP-SRV-192.168.66.8 | 192.168.66.8 |  DLP-SRV-10.2.8.208 | dlp\administrator | epocH.2021.668, | epocH.2024.668 | * | 
+23 | * | * | * | * | https://222.92.189.202:8443(苏州） | admin | !epocH.2021.suzhou.189.2021! | @!@epocH.2021.suzhou.189.2021@@ | * | 
+24 | * | * | * | * | 192.168.254.253（南京） | admin  | epocH.2024.03. | epocH.2024.03. | * | 
+25 | * | * | * | * | 192.168.210.254（成都） | admin | Admin@123 | Admin@123 | sidtek / ST*2024 | 
+26 | 23.0 | * | PROD-ENC-SRV-192.168.66.6 | 192.168.66.6 |  ENC-SRV-10.2.8.206 | encryption\administrator | epocH.2021.666, | epocH.2024.666 | * | 
+27 | 24.0 | * | PROD-AISHOST-APP-192.168.66.143 | https://192.168.66.143 |  AISHOST-APP-10.2.6.243 | admin | Asiainfo@2023 | Asiainfo@@2024 | * | 
+28 | * | * | * | * | DGS-Gateway-10.2.6.237 | root | 111111.0 | cnt5^CmyY4u | * | 
+29 | 25.0 | * | PROD-SDP-APP-192.168.66.144:8443 | https://192.168.66.144:8443 |  SDP-APP-10.2.8.245:8443 | admin | Asiainfo@2023 | admin123!@# | * | 
+30 | * | * | * | * | test-zhongwang-10.2.8.210 | admin | Aa123456 | test@123!! | * | 
+31 | 26.0 | * | PROD-Desktop-APP-192.168.66.238 | * |  Desktop-APP-10.2.8.238 | administrator | tgaHn3X#hq3 | tgaHn3X#hq4 | * | 
+32 | 27.0 | * | PROD-SYMANTEC-APP-192.168.66.236 | * |  SYMANTEC-APP-10.2.6.236 | administrator | k8qrzRsL*9g | k8qrzRsL* | * | 
+33 | 28.0 | * | PROD-DGS-WEB-192.168.66.233:8899 | * |  DGS-WEB-10.2.8.233:8899 | admin  | aDmin99 | ADmin99 | * | 
+34 | 29.0 | * | PROD-DGS-APP-192.168.66.233 | * |  DGS-APP-10.2.8.233 | root | pp5aiW7fiY~ | yk5i6QudVc^ | * | 
+35 | 30.0 | * | PROD-SDP-SRV-192.168.66.144 | 192.168.66.144 |  SDP-SRV-10.2.8.245 | root | Asiainfo@2023 | 不可修改 | * | 
+36 | 31.0 | * | * | * |  SYMANTEC-APP-10.2.8.244 | administrator | Aa123456 | app-10.2.8.244 | * | 
+37 | 32.0 | * | TEST-MBS-SVR-192.168.66.220 | * | MBS-WEB-10.2.8.220 | admin | 1qaz@wsx | 1qaz@wsx | * | 
+38 | 33.0 | * | TEST-MBS-APP-192.168.66.222 | * | MBS-SVR-10.2.8.220 | root | Aa123456 | zV4y8bhl+Gn |  管理页面1qaz@wsx | 
+39 | 34.0 | * | TEST-Desktop-SRV-192.168.66.42 | * | MBS-APP-10.2.8.222 | root | Aa123456 | 不可修改 | * | 
+40 | 35.0 | * | * | * | Desktop-SRV-10.2.8.242 | root | Aa123456 | rx8P~5pwnyU | * | 
+41 | 36.0 | * | * | * | Desktop-SRV-10.2.8.231 | administrator | Aa123456 | SRV-10.2.8.231 | * | 
+42 | * | * | * | * | www.aliyun.com（阿里云） |  wuhusidtek | * | epocH.XT007.2024@ | * | 
+43 | 37.0 | * | PROD-INTERNET-SRV-192.168.99.252 | https://192.168.99.252/ | SRV-192.168.99.252 | superman | epocH.2021.xt005 | * | * | 
+44 | 38.0 | 网络 | PROD-AC-SRV-192.168.254.254 | http://192.168.254.254 | 192.168.254.254 | admin | ruijie@123 | Ruijie@123456 | * | 
+45 | 40.0 | * | * | * | H3C-Office data -10.2.29.34 | admin | xtkj@202403 | * | * | 
+46 | * | * | * | * | 二期AC-192.168.150.6 | admin | ruijie@123 | RJ@123456 | * | 
+47 | * | * | * | * | 车间-AC- | admin | Xt191123., | Xt191123!! | * | 
+48 | 41.0 | * | * | * | H3C-production data-10.1.33.100 | admin | xtkj@202403 | * | * | 
+49 | 42.0 | * | * | * | H3C-production Convergence-10.1.33.1 | admin | xtkj@202403 | * | * | 
+50 | 43.0 | * | * | * | H3C-Office convergence-10.2.29.1 | admin | xtkj@202403 | whxt2024@ | * | 
+51 | 44.0 | * | * | * | H3C-Device Core-10.3.16.254 | admin | xtkj@202403 | * | * | 
+52 | 45.0 | * | * | * | H3C-production Core-10.1.2.254 | admin | xtkj@202403 | * | * | 
+53 | 46.0 | * | * | * | H3C-Office Core-10.2.1.254 | admin | sidtek@2024 | * | * | 
+54 | 47.0 | * | * | * | H3C-Office-AC-10.2.80.1 | admin | xtkj@202403 | xtkj@@202407 | * | 
+55 | 48.0 | * | * | * | H3C-Production-AC-10.1.70.1 | admin | xtkj@202403 | xtkj@!202407 | * | 
+56 | 49.0 | * | * | * | H3C-AD campus-10.2.29.103 | h3cadmin | Pwd@12345 | pwD@123456 | * | 
+57 | 50.0 | * | * | * | Da Hua-Security server-10.3.15.250 | admin | sidtek@202403 | Sidtek@202407 | * | 
+58 | 51.0 | 系统 | PROD-DESK-SRV-192.168.66.100:9250 | https://192.168.66.100:9250/#/login |  DESK-SRV-10.2.6.100:9250 | admin | Ruijie@desk!! | Ruijie@desk!!456 | 李遥保管 | 
+59 | 52.0 | * | PROD-DESKMG-SRV-192.168.66.100:8443 | https://192.168.66.100:8443/#/dashboard |  DESKMG-SRV-10.2.6.100:8443 | admin | Ruijie@desk.. | Ruijie@desk123 | 李遥保管 | 
+60 | 53.0 | * | PROD-SANGFORN-WEB-192.168.66.12 | https://192.168.66.12/login |  SANGFORN-WEB-10.2.6.150 | admin | q1w2e3r4! | WEB-10.2.6.150 | 李遥保管 | 
+61 | 54.0 | * | PROD-AD（PDC）-SRV-192.168.66.10 | 192.168.66.10 |  AD（PDC）-SRV-10.2.8.90 | administrator | epocH.2021.10, | * | * | 
+62 | 55.0 | * | PROD-AD-SRV-192.168.66.22 | 192.168.66.22 |  AD-SRV-10.2.8.92 | administrator | epocH.2021.10, | * | * | 
+63 | 56.0 | * | PROD-RTX-SRV-192.168.66.9 | 192.168.66.9 |  RTX-SRV-10.2.8.91 | administrator | epocH.2021.10, | * | * | 
+64 | 57.0 | * | PROD-FILE-SRV-192.168.66.30 | 192.168.66.3 |  FILE-SRV-10.2.8.80 | administrator | epocH.2021.10, | * | * | 
+65 | 58.0 | * | PROD-RJGATEWAY2-SRV-192.168.66.169 | 192.168.66.169 |  RJGATEWAY2-SRV-10.2.8.100 | root | @5niTg0csdS | 0bs~RdqJkt7 | * | 
+66 | 59.0 | * | PROD-SOFT-SRV-192.168.66.23 | 192.168.66.23 |  SOFT-SRV-10.2.8.131 | administrator | epocH.2021.10, | * | * | 
+67 | 60.0 | * | PROD-BACKUP1-SRV-192.168.66.16 | 192.168.66.16 |  BACKUP1-SRV-10.2.6.51 | root | epocH.2021.16, | * | * | 
+68 | 61.0 | * | PROD-LIGUANG-SRV-192.168.66.35 | * |  LIGUANG-SRV-10.2.8.70 | administrator | Q~bls8N8sxd | QQ~bls8N8sxd | * | 
+69 | 62.0 | * | PROD-LIGUANG-WEB-192.168.66.35 | * |  LIGUANG-WEB-10.2.8.70 | administrator | ipmS123456! | Sidtek20@@21 | 李遥保管 | 
+70 | 63.0 | * | PROD-SANGFORN-WEB-192.168.66.194 | * |  SANGFORN-WEB-10.2.6.160 | admin | Sidtek20.21 | Sidtek20!!21 | 李遥保管 | 
+71 | 64.0 | * | PROD-BACKUP2-SRV-192.168.66.200 | * |  BACKUP2-SRV-10.2.8.200 | root | 4zjjxb7*FRp | gYpIjrki99~ | 李遥保管 | 
+72 | 65.0 | * | TEST-RPT-AP-10.2.8.21 | root | Eccom@123/Aa123456 | * | * | 
+73 | 66.0 | * | TEST-WMS-DB1-10.1.9.43 | root | Eccom@123/Aa123456 | * | * | 
+74 | 67.0 | * | TEST-FMBWJS-DB1-10.1.9.42 | root | Eccom@123/Aa123456 | * | * | 
+75 | 68.0 | * | TEST-MCS-DB1-10.1.9.41 | root | Eccom@123/Aa123456 | * | * | 
+76 | 69.0 | * | TEST-RMS-DB1-10.1.9.40 | root | Eccom@123/Aa123456 | * | * | 
+77 | 70.0 | * | TEST-SPC-DB1-10.1.9.39 | root | Eccom@123/Aa123456 | * | * | 
+78 | 71.0 | * | TEST-MES-DB1-10.1.9.38 | root | Eccom@123/Aa123456 | * | * | 
+79 | 72.0 | * | DEV-ERP-AP01-10.1.9.131 | root | Eccom@123/Aa123456 | * | * | 
+80 | 73.0 | * | UAT-SPC-AP02-10.1.9.32 | root | Eccom@123/Aa123456 | * | * | 
+81 | 74.0 | * | UAT-SPC-AP01-10.1.9.31 | root | Eccom@123/Aa123456 | * | * | 
+82 | 75.0 | * | DEV-SPC-AP01-10.1.9.30 | root | Eccom@123/Aa123456 | * | * | 
+83 | 76.0 | * | TEST-SPC-AP01-10.1.9.29 | root | Eccom@123/Aa123456 | * | * | 
+84 | 77.0 | * | TDB01-10.1.9.37 | root | Eccom@123/Aa123456 | * | * | 
+85 | 78.0 | * | UAT-MES-AP02-10.1.9.36 | root | Eccom@123/Aa123456 | * | * | 
+86 | 79.0 | * | UAT-MES-AP01-10.1.9.35 | root | Eccom@123/Aa123456 | * | * | 
+87 | 80.0 | * | DEV-MES-AP01-10.1.9.34 | root | Eccom@123/Aa123456 | * | * | 
+88 | 81.0 | * | TEST-MES-AP01-10.1.9.33 | root | Eccom@123/Aa123456 | * | * | 
+89 | 82.0 | * | DEV-MCS-AP01-10.1.9.28 | root | Eccom@123/Aa123456 | * | * | 
+90 | 83.0 | * | TEST-MCS-AP01-10.1.9.27 | root | Eccom@123/Aa123456 | * | * | 
+91 | 84.0 | * | DEV-FMB-AP01-10.1.9.25 | root | Eccom@123/Aa123456 | * | * | 
+92 | 85.0 | * | TEST-FMB-AP01-10.1.9.24 | root | Eccom@123/Aa123456 | * | * | 
+93 | 86.0 | * | UAT-AMA-RTD1-10.1.9.23 | root | Eccom@123/Aa123456 | * | * | 
+94 | 87.0 | * | DEV-AMA-RTD1-10.1.9.22 | root | Eccom@123/Aa123456 | * | * | 
+95 | 88.0 | * | TEST-AMA-RTD1-10.1.9.21 | root | Eccom@123/Aa123456 | * | * | 
+96 | 89.0 | * | UAT-RMS-AP01-10.1.9.20 | root | Eccom@123/Aa123456 | * | * | 
+97 | 90.0 | * | DEV-RMS-AP01-10.1.9.19 | root | Eccom@123/Aa123456 | * | * | 
+98 | 91.0 | * | TEST-RMS-AP01-10.1.9.18 | root | Eccom@123/Aa123456 | * | * | 
+99 | 92.0 | * | DEV-EAP-AP01-10.1.9.17 | root | Eccom@123/Aa123456 | * | * | 
+100 | 93.0 | * | TEST-EAP-AP01-10.1.9.16 | root | Eccom@123/Aa123456 | * | * | 
+101 | 94.0 | * | DEV-RPT-AP01-10.1.9.15 | root | Eccom@123/Aa123456 | * | * | 
+102 | 95.0 | * | TEST-RPT-AP01-10.1.9.14 | root | Eccom@123/Aa123456 | * | * | 
+103 | 96.0 | * | RVD VM_10.1.5.121 | root | Eccom@123/Aa123456 | * | * | 
+104 | 97.0 | * | TEST-WMS-AP1-10.1.9.26 | root | Eccom@123/Aa123456 | * | * | 
+105 | 98.0 | * | PROD-WMS-AP3-10.1.5.136 | root | Eccom@123/Aa123456 | * | * | 
+106 | 99.0 | * | PROD-APF-RPT02-10.1.5.114 | root | Eccom@123/Aa123456 | * | * | 
+107 | 100.0 | * | PROD-APF-RPT01-10.1.5.113 | root | Eccom@123/Aa123456 | * | * | 
+108 | 101.0 | * | PROD-WMS-AP2-10.1.5.135 | root | Eccom@123/Aa123456 | * | * | 
+109 | 102.0 | * | PROD-WMS-AP1-10.1.5.134 | root | Eccom@123/Aa123456 | * | * | 
+110 | 103.0 | * | PROD-ERP-AP02-10.1.5.131 | root | Eccom@123/Aa123456 | * | * | 
+111 | 104.0 | * | PROD-ERP-AP01-10.1.5.130 | root | Eccom@123/Aa123456 | * | * | 
+112 | 105.0 | * | TEST-ERP-AP01-10.1.9.130 | root | Eccom@123/Aa123456 | * | * | 
+113 | 106.0 | * | PROD-WJS-AP02-10.1.5.133 | root | Eccom@123/Aa123456 | * | * | 
+114 | 107.0 | * | PROD-WJS-AP01-10.1.5.132 | root | Eccom@123/Aa123456 | * | * | 
+115 | 108.0 | * | TEST-HALO-10.1.9.129 | root | Eccom@123/Aa123456 | * | * | 
+116 | 109.0 | * | PROD-HALO-10.1.5.129 | root | Eccom@123/Aa123456 | * | * | 
+117 | 110.0 | * | TEST-ZABBIX-10.1.9.118 | root | Eccom@123/Aa123456 | * | * | 
+118 | 111.0 | * | PROD-TIBCO-AP10-10.1.5.128 | root | Eccom@123/Aa123456 | * | * | 
+119 | 112.0 | * | PROD-TIBCO-AP09-10.1.5.127 | root | Eccom@123/Aa123456 | * | * | 
+120 | 113.0 | * | PROD-TIBCO-AP08-10.1.5.126 | root | Eccom@123/Aa123456 | * | * | 
+121 | 114.0 | * | PROD-TIBCO-AP07-10.1.5.125 | root | Eccom@123/Aa123456 | * | * | 
+122 | 115.0 | * | Zabbix Prod VM_10.1.5.118 | root | Eccom@123/Aa123456 | * | * | 
+123 | 116.0 | * | RVD VM_10.1.5.124 | root | Eccom@123/Aa123456 | * | * | 
+124 | 117.0 | * | RVD VM_10.1.5.122 | root | Eccom@123/Aa123456 | * | * | 
+125 | 118.0 | * | RVD VM_10.1.5.123 | root | Eccom@123/Aa123456 | * | * | 
+126 | 119.0 | * | FMB AP VM_10.1.5.116 | root | Eccom@123/Aa123456 | * | * | 
+127 | 120.0 | * | EAPAP VM_10.1.5.94 | root | Eccom@123/Aa123456 | * | * | 
+128 | 121.0 | * | EAPAP VM_10.1.5.100 | root | Eccom@123/Aa123456 | * | * | 
+129 | 122.0 | * | AMA AP_10.1.5.76 | root | Eccom@123/Aa123456 | * | * | 
+130 | 123.0 | * | EAPAP VM_10.1.5.105 | root | Eccom@123/Aa123456 | * | * | 
+131 | 124.0 | * | AAPF RTD AP_10.1.5.82 | root | Eccom@123/Aa123456 | * | * | 
+132 | 125.0 | * | APF PR_10.1.5.77 | root | Eccom@123/Aa123456 | * | * | 
+133 | 126.0 | * | RPT FMB DB_10.1.5.31 | root | Eccom@123/Aa123456 | * | * | 
+134 | 127.0 | * | EAPAP VM_10.1.5.98 | root | Eccom@123/Aa123456 | * | * | 
+135 | 128.0 | * | MES AP_10.1.5.74 | root | Eccom@123/Aa123456 | * | * | 
+136 | 129.0 | * | MES ADG_10.1.5.10 | root | Eccom@123/Aa123456 | * | * | 
+137 | 130.0 | * | RPTAP VM_10.1.5.107 | root | Eccom@123/Aa123456 | * | * | 
+138 | 131.0 | * | EAPAP VM_10.1.5.104 | root | Eccom@123/Aa123456 | * | * | 
+139 | 132.0 | * | EAPAP VM_10.1.5.101 | root | Eccom@123/Aa123456 | * | * | 
+140 | 133.0 | * | EAPAP VM_10.1.5.95 | root | Eccom@123/Aa123456 | * | * | 
+141 | 134.0 | * | MCS AP_10.1.5.72 | root | Eccom@123/Aa123456 | * | * | 
+142 | 135.0 | * | MCS DB02_10.1.5.12 | root | Eccom@123/Aa123456 | * | * | 
+143 | 136.0 | * | SPC AP VM_10.1.5.112 | root | Eccom@123/Aa123456 | * | * | 
+144 | 137.0 | * | RMS AP_10.1.5.79 | root | Eccom@123/Aa123456 | * | * | 
+145 | 138.0 | * | RVD VM_10.1.5.120 | root | Eccom@123/Aa123456 | * | * | 
+146 | 139.0 | * | EAPAP VM_10.1.5.97 | root | Eccom@123/Aa123456 | * | * | 
+147 | 140.0 | * | EAPMaster_10.1.5.91 | root | Eccom@123/Aa123456 | * | * | 
+148 | 141.0 | * | FMB AP VM_10.1.5.115 | root | Eccom@123/Aa123456 | * | * | 
+149 | 142.0 | * | MCS OfflineDB_10.1.5.20 | root | Eccom@123/Aa123456 | * | * | 
+150 | 143.0 | * | RPTAP VM_10.1.5.108 | root | Eccom@123/Aa123456 | * | * | 
+151 | 144.0 | * | EAPAP VM_10.1.5.102 | root | Eccom@123/Aa123456 | * | * | 
+152 | 145.0 | * | RVD VM_10.1.5.119 | root | Eccom@123/Aa123456 | * | * | 
+153 | 146.0 | * | EAPAP VM_10.1.5.92 | root | Eccom@123/Aa123456 | * | * | 
+154 | 147.0 | * | RMS AP_10.1.5.80 | root | Eccom@123/Aa123456 | * | * | 
+155 | 148.0 | * | RPT FMB DB_10.1.5.32 | root | Eccom@123/Aa123456 | * | * | 
+156 | 149.0 | * | FMB AP VM 10.1.5.117 | root | Eccom@123/Aa123456 | * | * | 
+157 | 150.0 | * | XsiteNotifer VM_10.1.5.110 | root | Eccom@123/Aa123456 | * | * | 
+158 | 151.0 | * | MES AP_10.1.5.73 | root | Eccom@123/Aa123456 | * | * | 
+159 | 152.0 | * | MCS DB01_10.1.5.11 | root | Eccom@123/Aa123456 | * | * | 
+160 | 153.0 | * | SPC AP VM_10.1.5.111 | root | Eccom@123/Aa123456 | * | * | 
+161 | 154.0 | * | AAPF RTD AP_10.1.5.81 | root | Eccom@123/Aa123456 | * | * | 
+162 | 155.0 | * | APF PR_10.1.5.78 | root | Eccom@123/Aa123456 | * | * | 
+163 | 156.0 | * | AMA AP_10.1.5.75 | root | Eccom@123/Aa123456 | * | * | 
+164 | 157.0 | * | EAPAP VM_10.1.5.106 | root | Eccom@123/Aa123456 | * | * | 
+165 | 158.0 | * | MCS AP_10.1.5.71 | root | Eccom@123/Aa123456 | * | * | 
+166 | 159.0 | * | EAPAP VM_10.1.5.103 | root | Eccom@123/Aa123456 | * | * | 
+167 | 160.0 | * | XsiteNotifer VM_10.1.5.109 | root | Eccom@123/Aa123456 | * | * | 
+168 | 161.0 | * | EAPAP VM_10.1.5.99 | root | Eccom@123/Aa123456 | * | * | 
+169 | 162.0 | * | EAPMaster_10.1.5.90 | root | Eccom@123/Aa123456 | * | * | 
+170 | 163.0 | * | EAPAP VM_10.1.5.96 | root | Eccom@123/Aa123456 | * | * | 
+171 | 164.0 | * | EAPAP VM_10.1.5.93 | root | Eccom@123/Aa123456 | * | * | 
+172 | 165.0 | * | EAPAP VM_10.1.5.93 | root | Eccom@123/Aa123456 | * | * | 
+173 | 166.0 | * | RMS WMS DB02 | root | Eccom@123/Aa123456 | * | * | 
+174 | 167.0 | * | RMS WMS DB01 | root | Eccom@123/Aa123456 | * | * | 
+175 | 168.0 | * | MES SPC DB02 | root | Eccom@123/Aa123456 | * | * | 
+176 | 169.0 | * | MES SPC DB01 | root | Eccom@123/Aa123456 | * | * | 
+177 | 65.0 | * | DMS-SYSTEM-10.2.8.88 | adminsitrator | Aa123456 | Aa123456 | 测试 | 
+生产
+0 | 堡垒机服务器列表 | * | * | * | * | * | 
+1 | 序号 | 名称（环境-业务-用途-IP） | 账号 | 旧密码 | 现密码 | 备注 | 
+2 | 1.0 | TEST-RPT-AP-10.2.8.21 | root | Eccom@123/Aa123456 | * | * | 
+3 | 2.0 | Zabbix Prod VM_10.1.5.118 | root | Eccom@123/Aa123456 | pA3uSm#hi1p | * | 
+4 | 3.0 | XsiteNotifer VM_10.1.5.110 | root | Eccom@123/Aa123456 | * | * | 
+5 | 4.0 | XsiteNotifer VM_10.1.5.109 | root | Eccom@123/Aa123456 | * | * | 
+6 | 5.0 | UAT-SPC-AP02-10.1.9.32 | root | Eccom@123/Aa123456 | f~hSV7e4kwz | * | 
+7 | 6.0 | UAT-SPC-AP01-10.1.9.31 | root | Eccom@123/Aa123456 | 4pybfKrRa@2 | * | 
+8 | 7.0 | UAT-RMS-AP01-10.1.9.20 | root | Eccom@123/Aa123456 | * | * | 
+9 | 8.0 | UAT-MES-AP02-10.1.9.36 | root | Eccom@123/Aa123456 | !Rnz1hy7vsS | * | 
+10 | 9.0 | UAT-MES-AP01-10.1.9.35 | root | Eccom@123/Aa123456 | 9Hocm~aYak6 | * | 
+11 | 10.0 | UAT-AMA-RTD1-10.1.9.23 | root | Eccom@123/Aa123456 | * | * | 
+12 | 11.0 | TEST-ZABBIX-10.1.9.118 | root | Eccom@123/Aa123456 | 5^ZM1rkfiwx | * | 
+13 | 12.0 | TEST-WMS-DB1-10.1.9.43 | root | Eccom@123/Aa123456 | bNvcp8j~f4M | * | 
+14 | 13.0 | TEST-WMS-AP1-10.1.9.26 | root | Eccom@123/Aa123456 | gvi#j5tlY8V | * | 
+15 | 14.0 | TEST-SPC-DB1-10.1.9.39 | root | Eccom@123/Aa123456 | _Ssr9Xejni3 | * | 
+16 | 15.0 | TEST-SPC-AP01-10.1.9.29 | root | Eccom@123/Aa123456 | broLk5nJ+1b | * | 
+17 | 16.0 | TEST-RPT-AP01-10.1.9.14 | root | Eccom@123/Aa123456 | * | * | 
+18 | 17.0 | TEST-RMS-DB1-10.1.9.40 | root | Eccom@123/Aa123456 | owo3k*xZ2aG | * | 
+19 | 18.0 | TEST-RMS-AP01-10.1.9.18 | root | Eccom@123/Aa123456 | * | * | 
+20 | 19.0 | TEST-MES-DB1-10.1.9.38 | root | Eccom@123/Aa123456 | wgxe*8Vks4T | * | 
+21 | 20.0 | TEST-MES-AP01-10.1.9.33 | root | Eccom@123/Aa123456 | cgTs^i4dwJ3 | * | 
+22 | 21.0 | TEST-MCS-DB1-10.1.9.41 | root | Eccom@123/Aa123456 | Qb0db_2kLpz | * | 
+23 | 22.0 | TEST-MCS-AP01-10.1.9.27 | root | Eccom@123/Aa123456 | yza9bO2W@xd | * | 
+24 | 23.0 | TEST-HALO-10.1.9.129 | root | Eccom@123/Aa123456 | * | * | 
+25 | 24.0 | TEST-FMBWJS-DB1-10.1.9.42 | root | Eccom@123/Aa123456 | cjBzk7ckQ#0 | * | 
+26 | 25.0 | TEST-FMB-AP01-10.1.9.24 | root | Eccom@123/Aa123456 | ty+d59soTkW | * | 
+27 | 26.0 | TEST-ERP-AP01-10.1.9.130 | root | Eccom@123/Aa123456 | * | * | 
+28 | 27.0 | TEST-EAP-AP01-10.1.9.16 | root | Eccom@123/Aa123456 | * | * | 
+29 | 28.0 | TEST-AMA-RTD1-10.1.9.21 | root | Eccom@123/Aa123456 | * | * | 
+30 | 29.0 | 2.0 | * | * | * | * | 
+31 | 30.0 | TDB01-10.1.9.37 | root | Eccom@123/Aa123456 | fu8w4_YNqxc | * | 
+32 | 31.0 | SPC AP VM_10.1.5.112 | root | Eccom@123/Aa123456 | 8zydqN^aW3w | * | 
+33 | 32.0 | SPC AP VM_10.1.5.111 | root | Eccom@123/Aa123456 | eGhok@Zt53g | * | 
+34 | 33.0 | RVD VM_10.1.5.124 | root | Eccom@123/Aa123456 | C3z9Sqh~lsg | * | 
+35 | 34.0 | RVD VM_10.1.5.123 | root | Eccom@123/Aa123456 | Qi7tt^D5ten | * | 
+36 | 35.0 | RVD VM_10.1.5.122 | root | Eccom@123/Aa123456 | w0xtkyq~A4B | * | 
+37 | 36.0 | RVD VM_10.1.5.121 | root | Eccom@123/Aa123456 | dt6zh_aZXt0 | * | 
+38 | 37.0 | RVD VM_10.1.5.120 | root | Eccom@123/Aa123456 | yvZHr#3rt9s | * | 
+39 | 38.0 | RVD VM_10.1.5.119 | root | Eccom@123/Aa123456 | hs4Rni^kQt8 | * | 
+40 | 39.0 | RPTAP VM_10.1.5.108 | root | Eccom@123/Aa123456 | * | * | 
+41 | 40.0 | RPTAP VM_10.1.5.107 | root | Eccom@123/Aa123456 | * | * | 
+42 | 41.0 | RPT FMB DB_10.1.5.32 | root | Eccom@123/Aa123456 | o2j5SDijl*a | * | 
+43 | 42.0 | RPT FMB DB_10.1.5.31 | root | Eccom@123/Aa123456 | xvwo!n6EC9x | * | 
+44 | 43.0 | RMS WMS DB02 | root | Eccom@123/Aa123456 | * | * | 
+45 | 44.0 | RMS WMS DB01 | root | Eccom@123/Aa123456 | * | * | 
+46 | 45.0 | RMS AP_10.1.5.80 | root | Eccom@123/Aa123456 | * | * | 
+47 | 46.0 | RMS AP_10.1.5.79 | root | Eccom@123/Aa123456 | * | * | 
+48 | 47.0 | PROD-WMS-AP3-10.1.5.136 | root | Eccom@123/Aa123456 | pTtt1tA!b0u | * | 
+49 | 48.0 | PROD-WMS-AP2-10.1.5.135 | root | Eccom@123/Aa123456 | !le5qLjw7rH | * | 
+50 | 49.0 | PROD-WMS-AP1-10.1.5.134 | root | Eccom@123/Aa123456 | 6oSlhxz6Qz~ | * | 
+51 | 50.0 | PROD-WJS-AP02-10.1.5.133 | root | Eccom@123/Aa123456 | * | * | 
+52 | 51.0 | PROD-WJS-AP01-10.1.5.132 | root | Eccom@123/Aa123456 | * | * | 
+53 | 52.0 | PROD-TIBCO-AP10-10.1.5.128 | root | Eccom@123/Aa123456 | c29eLMf~csg | * | 
+54 | 53.0 | PROD-TIBCO-AP09-10.1.5.127 | root | Eccom@123/Aa123456 | n6ppCwo+0qO | * | 
+55 | 54.0 | PROD-TIBCO-AP08-10.1.5.126 | root | Eccom@123/Aa123456 | e2Z@qR2lwhi | * | 
+56 | 55.0 | PROD-TIBCO-AP07-10.1.5.125 | root | Eccom@123/Aa123456 | il3iyiGp_5M | * | 
+57 | 56.0 | PROD-HALO-10.1.5.129 | root | Eccom@123/Aa123456 | * | * | 
+58 | 57.0 | PROD-ERP-AP02-10.1.5.131 | root | Eccom@123/Aa123456 | * | * | 
+59 | 58.0 | PROD-ERP-AP01-10.1.5.130 | root | Eccom@123/Aa123456 | * | * | 
+60 | 59.0 | PROD-APF-RPT02-10.1.5.114 | root | Eccom@123/Aa123456 | * | * | 
+61 | 60.0 | PROD-APF-RPT01-10.1.5.113 | root | Eccom@123/Aa123456 | * | * | 
+62 | 61.0 | MES SPC DB02 | root | Eccom@123/Aa123456 | * | * | 
+63 | 62.0 | MES SPC DB01 | root | Eccom@123/Aa123456 | * | * | 
+64 | 63.0 | 3.0 | * | * | * | * | 
+65 | 64.0 | MES AP_10.1.5.74 | root | Eccom@123/Aa123456 | dxwKoi3zA+8 | * | 
+66 | 65.0 | MES AP_10.1.5.73 | root | Eccom@123/Aa123456 | cT0dlmq9j*H | * | 
+67 | 66.0 | MES ADG_10.1.5.10 | root | Eccom@123/Aa123456 | * | * | 
+68 | 67.0 | MCS OfflineDB_10.1.5.20 | root | Eccom@123/Aa123456 | ~ySciyc07eB | * | 
+69 | 68.0 | MCS DB02_10.1.5.12 | root | Eccom@123/Aa123456 | Y#Ip16etsiy | * | 
+70 | 69.0 | MCS DB01_10.1.5.11 | root | Eccom@123/Aa123456 | 9sd7Jifmx@W | * | 
+71 | 70.0 | MCS AP_10.1.5.72 | root | Eccom@123/Aa123456 | G78_gjvrroK | * | 
+72 | 71.0 | MCS AP_10.1.5.71 | root | Eccom@123/Aa123456 | ~t2V3Eoehfx | * | 
+73 | 72.0 | FMB AP VM_10.1.5.116 | root | Eccom@123/Aa123456 | Xt1fH4dc*ly | * | 
+74 | 73.0 | FMB AP VM_10.1.5.115 | root | Eccom@123/Aa123456 | w7U9~pgYiuv | * | 
+75 | 74.0 | FMB AP VM 10.1.5.117 | root | Eccom@123/Aa123456 | ik2b6+FHmxc | * | 
+76 | 75.0 | EAPMaster_10.1.5.91 | root | Eccom@123/Aa123456 | * | * | 
+77 | 76.0 | EAPMaster_10.1.5.90 | root | Eccom@123/Aa123456 | * | * | 
+78 | 77.0 | EAPAP VM_10.1.5.99 | root | Eccom@123/Aa123456 | * | * | 
+79 | 78.0 | EAPAP VM_10.1.5.98 | root | Eccom@123/Aa123456 | * | * | 
+80 | 79.0 | EAPAP VM_10.1.5.97 | root | Eccom@123/Aa123456 | * | * | 
+81 | 80.0 | EAPAP VM_10.1.5.96 | root | Eccom@123/Aa123456 | * | * | 
+82 | 81.0 | EAPAP VM_10.1.5.95 | root | Eccom@123/Aa123456 | * | * | 
+83 | 82.0 | EAPAP VM_10.1.5.94 | root | Eccom@123/Aa123456 | * | * | 
+84 | 83.0 | EAPAP VM_10.1.5.93 | root | Eccom@123/Aa123456 | * | * | 
+85 | 84.0 | EAPAP VM_10.1.5.93 | root | Eccom@123/Aa123456 | * | * | 
+86 | 85.0 | EAPAP VM_10.1.5.92 | root | Eccom@123/Aa123456 | * | * | 
+87 | 86.0 | EAPAP VM_10.1.5.106 | root | Eccom@123/Aa123456 | * | * | 
+88 | 87.0 | EAPAP VM_10.1.5.105 | root | Eccom@123/Aa123456 | * | * | 
+89 | 88.0 | EAPAP VM_10.1.5.104 | root | Eccom@123/Aa123456 | * | * | 
+90 | 89.0 | EAPAP VM_10.1.5.103 | root | Eccom@123/Aa123456 | * | * | 
+91 | 90.0 | EAPAP VM_10.1.5.102 | root | Eccom@123/Aa123456 | * | * | 
+92 | 91.0 | EAPAP VM_10.1.5.101 | root | Eccom@123/Aa123456 | * | * | 
+93 | 92.0 | EAPAP VM_10.1.5.100 | root | Eccom@123/Aa123456 | * | * | 
+94 | 93.0 | DEV-SPC-AP01-10.1.9.30 | root | Eccom@123/Aa123456 | Fdk_V0ciud2 | * | 
+95 | 94.0 | DEV-RPT-AP01-10.1.9.15 | root | Eccom@123/Aa123456 | * | * | 
+96 | 95.0 | DEV-RMS-AP01-10.1.9.19 | root | Eccom@123/Aa123456 | * | * | 
+97 | 96.0 | DEV-MES-AP01-10.1.9.34 | root | Eccom@123/Aa123456 | h~3Gxr9hdOu | * | 
+98 | 97.0 | DEV-MCS-AP01-10.1.9.28 | root | Eccom@123/Aa123456 | cUf+x3s7qvQ | * | 
+99 | 98.0 | DEV-FMB-AP01-10.1.9.25 | root | Eccom@123/Aa123456 | *zrqpbF11oN | * | 
+100 | 99.0 | DEV-ERP-AP01-10.1.9.131 | root | Eccom@123/Aa123456 | * | * | 
+101 | 100.0 | DEV-EAP-AP01-10.1.9.17 | root | Eccom@123/Aa123456 | * | * | 
+102 | 101.0 | DEV-AMA-RTD1-10.1.9.22 | root | Eccom@123/Aa123456 | * | * | 
+103 | 102.0 | APF PR_10.1.5.78 | root | Eccom@123/Aa123456 | * | * | 
+104 | 103.0 | APF PR_10.1.5.77 | root | Eccom@123/Aa123456 | * | * | 
+105 | 104.0 | AMA AP_10.1.5.76 | root | Eccom@123/Aa123456 | * | * | 
+106 | 105.0 | AMA AP_10.1.5.75 | root | Eccom@123/Aa123456 | * | * | 
+107 | 106.0 | AAPF RTD AP_10.1.5.82 | root | Eccom@123/Aa123456 | * | * | 
+108 | 107.0 | AAPF RTD AP_10.1.5.81 | root | Eccom@123/Aa123456 | * | * | 
+Sheet3
+0 | sidtek / ST*2024 | 

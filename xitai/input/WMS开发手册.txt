@@ -1,0 +1,40 @@
+文档说明
+本文档是由北京珂阳科技在安徽熙泰智能科技有限公司，针对WMS管理系统编写的开发手册。
+开发手册
+WMS管理系统代码采用后端ASP.NET CORE+前端VUE，后端代码结构如下图所示
+
+Sineva.WMS.Application.Contracts：应用契约层，包含应用服务接口和数据传输对象（用于接口），该项目被应用程序客户端引用，比如：WEB项目、API客户端项目。
+Sineva.WMS.Application：应用层，实现在 Contracts 项目中定义的接口。
+Sineva.WMS.BackgroundServer：定时任务层，用于实现后台工作任务。
+Sineva.WMS.Domain：领域层，该项目包含所有领域层构件
+Sineva.WMS.Domain.Shared：领域共享层，包含属于领域层，但是与其他层共享的类型。举个例子：定义的常量和枚举，既在领域对象中使用，也要在其他层中使用，放在该项目中。
+Sineva.WMS.EntityFrameworkCore：EF Core核心基础依赖项目，包含：数据上下文、数据库映射、EF Core仓储实现等。
+Sineva.WMS.Web 项目作为一个独立的端点提供 HTTP API 服务，供客户端调用。
+
+下面以登录接口为例，介绍如何新增一个接口：
+首先在Sineva.WMS.Application.Contracts中ServiceInterface文件夹中对应的接口类IUserAppService新增LoginAsync方法；应代码规范，同时对应的接口实体类应在Sineva.WMS.Application.Contracts中的DTO的对应的UserDto文件夹下建立对应的接口实体类。
+
+然后在Sineva.WMS.Application中Service文件夹找到UserAppService类，在该类中实现在之前接口类IUserAppService新增LoginAsync方法，[HttpPost("api/wms/[controller]/login")]是之后前端接口访问的地址，[controller]中的controller会自动替换成当前类名AppService前的内容，即实际接口地址为"api/wms/user/login"。
+
+涉及需要操作DB增删改查的方法，需要在Sineva.WMS.Domain中的ServiceMangement对应相关模块的文件夹下新增相应的接口类和接口实现类，现以登录验证方法为例：
+
+在User文件夹下新增ILogInOutManager接口类，同时新增登录验证方法LoginAsync。
+
+在User文件夹下新增LogInOutManager类集成ILogInOutManager接口类，同时实现接口类中的登录验证方法LoginAsync。
+
+在登录的接口方法中，也需要在构造函数引入该接口，然后就可以调用领域层相关的接口。
+
+前端代码结构介绍如下：
+Dist：打包后生成的打包文件
+public：静态资源目录，前端模板文件
+Mock：模拟数据
+node_modules：npm加载的插件
+.env.development：开发环境配置
+.env.production：生产环境配置
+
+新增页面在views中对应模块目录下新建页面
+
+新建完页面后，需要在router/index.js文件中添加相应的路由
+
+页面建好之后，页面在数据库中的配置信息在表SYS_BASE_FUNC中，
+FUNC_ID为主键功能ID，不可重复，FUNC_NAME为功能名称，FUNC_CODE为功能编码，FUNC_URL为路由路径，FUNC_FATHER_ID为上层功能ID，FUNC_TYPE为功能类型，分为page和button，FUNC_IS_LOG为判断该功能是否需要记录操作记录，true记录，false不记录，默认可设为false，REMARK为功能备注描述，FUNC_IS_SHOW为功能是否显示，true显示，false不显示。
